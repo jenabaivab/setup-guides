@@ -1,70 +1,58 @@
-Monitoring and detection
-
-
-Defined 
-Monitoring and analysis of event data for abnormal activity, and notification of suspicious activity to enable response
-
-Why it Matters 
-
-With artificial intelligence emerging as tool for threat actors, real-time monitoring and detection of vulnerabilities is of paramount importance for cybersecurity programs. Monitoring and detection tool provide timely and relevant information for decision-making, enabling faster threat detection and response to potential cyber-attacks. They also demonstrate accountability and compliance with laws and regulations, holding employees, partners, and vendors accountable for their security responsibilities. Monitoring and detection also enable learning and improvement, identifying strengths, weaknesses, opportunities, and challenges, and adjusting security controls and strategies to meet changing needs and threats.
-
-A Closer Look
-
-•	45% of organizations worldwide are expected to experience an attack on their supply chains by 2025.
-
-•	Notable breach - Marriott's 2018 breach involved a massive data leak compromising millions of customer records. Inadequate monitoring and detection systems failed to promptly identify and respond to suspicious activities, allowing the breach to persist undetected for a long time.
-                                         
-RealRisk Assessment Indicators
-
-RealRisk uses the following indicators to assess this area: 
-»	Monitoring and Detection procedures
-»	Implementation of automated scanning tools
-»	Response plan on threat detection
-
-How to Lower Risk 
-
-The following is ACA Aponix’s guidance for how companies can lower their risk in this area:     
-
-Essential Components
-
-	Implementing Detection and Response Tools
-Detection and response tools are the key components in identifying potentially malicious or anomalous activity. They can be running on endpoints (e.g. laptops and servers) and on the network (e.g. firewalls or Intrusion detection prevention (IDS/IPS) devices). On endpoints they may be referred to as Anti-Virus (AV) or Endpoint Detection and Response (EDR) tools. Fundamentally all of these tools scrutinize activity and events for patterns for unusual or suspicious activities that may indicate a security threat. They provide real-time alerts, enabling prompt responses. Most can be configured to automatically take some level of response when suspicious activity. Organizations should start by assessing network infrastructure, defining security policies, and selecting suitable solutions. When selecting vendors, scalability, real-time monitoring, and regular updates should be things to prioritize. Key to the use of these tools is that their output, in terms of alerts, needs to be monitored so that potential incidents are detected and responded to in a timely manner.
+The Cyber Risk Landscape Has Changed — Has Your Program Kept Up? 
+Vantage has long empowered private equity sponsors and operating teams with visibility into cyber posture across their portfolios. But visibility is only the first step. Once risks are identified, the real challenge begins:
+»	Who owns the follow-up?
+»	How is progress tracked?
+»	Are issues actually being resolved?
+Without a centralized system, PortCos often rely on fragmented methods—spreadsheets, email chains, or internal tools invisible to sponsors. This leads to inconsistent follow-through, unclear accountability, and limited oversight.
+Risk Program Manager: A Shared System of Record
+Risk Program Manager (RPM) is a new feature integrated into the Vantage platform that enables sponsors and PortCos to collaboratively manage cybersecurity risks within their existing dashboards. It acts as a centralized register where risks—whether identified through Vantage, third-party assessments, or internal reviews—can be logged with key details such as severity, source, remediation plans, and deadlines. This transforms the Vantage assessment from a static snapshot into a dynamic, ongoing workflow.
 
 
 
 
-	Incident Response Planning and Training
-A well-defined incident response plan outlines the steps to take when a security incident occurs, ensuring a structured and coordinated response. Regular training familiarizes staff with these procedures, enabling swift and effective action. This preparation enhances the organization's ability to detect and respond to incidents promptly. It minimizes confusion, reduces response times, and ensures that the right personnel are equipped to handle the situation. 
+Each PortCo has its own RPM instance, allowing for tailored risk tracking while maintaining consistency across the portfolio. Sponsors can navigate into individual PortCos to monitor progress, with real-time updates, status changes, and supporting documentation all visible within the platform. While not a unified portfolio-wide view, RPM ensures standardized oversight and accountability, helping stakeholders clearly see what’s being done, by whom, and by when.
 
-	Conducting Regular Security Audits and Penetration Testing
-Regular security audits and penetration testing bolster organizations' monitoring and detection capabilities by actively assessing their defenses. Security audits evaluate the effectiveness of existing security measures, ensuring compliance with industry standards and policies. Penetration testing simulates real-world cyberattacks to identify vulnerabilities and weaknesses. These proactive measures pinpoint potential entry points for malicious actors.
+Why the RPM Matters
 
-	Using Threat Intelligence Feeds and Reviewing Alerts 
-Threat intelligence feeds are valuable tools for organizations to monitor and detect emerging threats. They provide early warnings of new threats, enabling proactive measures like patch deployment and policy updates. They can also enhance the effectiveness of security tools and solutions by integrating them with existing ones. Additionally, they help organizations investigate and respond to security incidents more quickly and effectively. For instance, they can identify IP addresses associated with known malware botnets, update antivirus software to detect new malware, and identify phishing campaigns targeting organizations. By consistently analyzing events and alerts, organizations can spot unusual patterns or anomalies that may indicate a security breach or unauthorized access.
+Cybersecurity oversight isn’t just about identifying risks—it’s about ensuring they’re resolved. RPM bridges the gap between assessment and action by embedding accountability into the Vantage platform. Every risk logged in RPM is tied to an owner, a deadline, and a clear remediation path, giving both sponsors and PortCos the structure they need to follow through. 
 
-Advanced Components
+By centralizing risk tracking, RPM eliminates the confusion of scattered systems and manual updates. Sponsors gain real-time visibility into how risks are progressing across each PortCo, while PortCos benefit from a consistent, transparent process. It fits directly into the oversight process by giving sponsors and PortCos a shared, structured system to assign owners, set deadlines, and track remediation progress without leaving the Vantage platform. Some key benefits include:
 
-	Utilizing SIEM Tools Throughout the Infrastructure
-Utilizing Security Information and Event Management (SIEM) tools empowers organizations in monitoring and detection by providing a centralized platform to aggregate, correlate, and analyze security events from various sources across the network. It offers a comprehensive view of the organization's security posture in real time. SIEM identifies patterns and anomalies, allowing for early detection of potential threats or breaches. Moreover, it generates alerts and reports, enabling rapid response to security incidents. By leveraging SIEM, organizations can proactively identify and mitigate security risks, enhance incident response capabilities, and maintain a robust security stance, ultimately safeguarding sensitive data and preserving the integrity of their systems and networks. 
-	
-	Employing Network Traffic Analysis (NTA) Tools
-Network analysis tools continuously scrutinize network traffic for suspicious patterns or anomalies, providing real-time insights into potential security threats. By identifying unusual activities or communication patterns, organizations can swiftly pinpoint potential breaches or malicious activities. Additionally, network analysis tools offer the ability to generate alerts, allowing for immediate investigation and response. This proactive approach strengthens an organization's ability to detect and respond to emerging threats, ultimately fortifying the overall cybersecurity posture.
+Laying the Groundwork for Smarter Oversight
 
+The launch of Risk Program Manager marks a major step forward in how sponsors and PortCos manage cybersecurity risks across the portfolio. By embedding risk tracking, ownership, and resolution directly into the Vantage platform, RPM lays the groundwork for a more structured, transparent, and accountable oversight process from day one.
 
-How Do We Get Our Score to be “Green”? 
+Whether you're preparing for regulatory scrutiny, responding to investor questions, or simply aiming to improve internal coordination, RPM gives you the tools to act with confidence. It’s ready to use now—fully integrated into your existing dashboards and designed to scale with your needs. If you’d like to see RPM in action or explore how to incorporate it into your workflow, reach out to your ACA representative.
 
-Users of RealRisk should understand three important points about the RealRisk methodology which are related to achieving a score less than 25. 
+Some more info I had on the RPM
 
-First, despite some vendors’ claims to the contrary, it is impossible to quantify cyber risk in absolute terms. All cyber risk assessments, including RealRisk, should be seen as prioritization tools. RealRisk helps identify the likely areas of greatest risk to support prioritization of improvement efforts. Hence, achieving an arbitrary score (such as “green”) may not be in an organization’s best interest.
+Risk Program Management
+Over the years, Vantage has helped private equity sponsors and operating teams evaluate cyber posture across their portfolios. By surfacing gaps, benchmarking maturity, and highlighting key risks, Vantage gave users a real-time snapshot of where their companies stood—and where attention was required. But having visibility into risks wasn’t enough. Sponsors often found themselves asking:
+“What happened after the assessment?”
+“Who’s responsible for follow-up?”
+“Did the PortCo ever fix that?”
+PortCos, on the other hand, were left to manage issues through ad hoc methods—spreadsheets, email chains, internal ticketing systems that weren’t visible to sponsors, or worse, no system at all. The result was fragmented accountability, inconsistent follow-through, and limited oversight into whether risks were being resolved.
+Clients repeatedly asked for a way to track progress in one place, assign accountability, and maintain a shared system of record—not just for ACA-led findings, but for any cybersecurity risks that emerged from audits, pen tests, or internal discoveries.
+That gap led us to build the Risk Program Manager.
+What is the Risk Program Manager?
+Risk Program Manager (RPM) is a new feature built directly into the Vantage platform. It acts as a centralized register where sponsors and PortCos can collaboratively log cybersecurity risks, assign ownership, and track resolution—all within the context of the existing dashboards.
+RPM is designed to turn the Vantage assessment from a static snapshot into a living workflow. When a risk is identified—whether through Vantage, a third-party test, or internal review—it can be added into RPM with details like severity, source, remediation plans, and deadlines. From there, progress can be tracked in real time. Owners can update statuses, log notes, and upload supporting documentation to show how risks are being remediated over time.
+Each PortCo has its own RPM instance inside its dashboard. Sponsors with access to multiple PortCos can view risks by navigating into each company individually. While it’s not a single unified view across the entire portfolio, RPM enables sponsors to see risk progress in a consistent, standardized way—no matter which PortCo they’re reviewing.
+In effect, RPM transforms risk conversations from “Is this being handled?” to “Here’s what’s being done, by whom, and by when.”
+How our RPM Fits into Portfolio Oversight
+Our risk program manager extends Vantage’s role from surfacing cybersecurity risks to actively managing their resolution. It fits directly into the oversight process by giving sponsors and PortCos a shared, structured system to assign owners, set deadlines, and track remediation progress—all without leaving the Vantage platform. Some key benefits include:
+•	Centralized tracking: All cybersecurity risks—whether identified by ACA, third parties, or internally—can be logged and monitored in one place, reducing confusion and duplication.
 
-Second, RealRisk incorporates not only companies’ security posture, but also the inherent risk due to their business context. In certain cases, an organization’s inherent risk may be so high that it is impractical to reduce its score to the bottom quartile of the RealRisk scale. That may just be a fact of life for some companies in certain industries, just as a bank will always be exposed to higher credit risk than a telecom. RealRisk’s utility is in identifying the areas of highest relative risk, both within a company and between companies, so it must be able to reflect the reality of inherent risk.
+•	Clear accountability: Each risk is assigned to an owner with a due date, ensuring that responsibility for remediation is clearly documented.
 
-Finally, in our design of RealRisk, we have purposefully left room for the possibility of over investment in risk reduction. ACA considers scores between 25 and 50, or Light Green, as “Low” risk and likely a satisfactory score for many companies. Scores much less than 25 (Dark Green, or “Very Low”) should prompt consideration as possibly reflecting areas of over investment.
+•	Real-time visibility: Both PortCos and sponsors can see the current status of risks at any time, without waiting for periodic updates or manual reports.
 
-How ACA Can Help
+•	Standardized oversight: Risks are tracked in a consistent format across all PortCos, making it easier for sponsors to review progress and spot trends portfolio wide.
 
-We have worked alongside more than 100 private equity, venture capital, and hedge funds to help stand up cyber oversight programs. We also work directly with their portfolio companies to strengthen their cyber programs.  
+•	Audit-ready documentation: RPM provides a historical record of how risks were managed and resolved, helping both PortCos and sponsors demonstrate diligence during audits, investor reviews, or regulatory inquiries.
+RPM is not just a record-keeping tool—it’s a way to drive real follow-through, foster accountability, and improve confidence in how cybersecurity risks are addressed across the portfolio.
+What’s Next for You?
+The Risk Program Manager is intended to serve as a foundation for stronger, more consistent cybersecurity oversight across the portfolio. Over time, we aim to continue enhancing the experience based on client needs and feedback. Our focus remains on helping sponsors and PortCos manage risks more effectively, improve transparency, and maintain accountability – all within the vantage platform.
+As cybersecurity risks evolve, so will our tools for managing them.
+If you’d like to learn more about using RPM or see it in action, please reach out to your ACA representative.
 
-ACA Aponix provides cybersecurity risk assessments, data privacy compliance services, vendor and M&A diligence services, portfolio company oversight, network testing, and advisory services for companies of all sizes. Our award-winning solutions are designed to help firms uncover risks and identify deficiencies in their cybersecurity policies, procedures, and controls.
-
-For details on how ACA Aponix can help your organization strengthen its performance in this RealRisk area, please see the service table on the first page. For any questions or to discuss these services further with a trusted ACA Aponix expert, please contact us here. 
