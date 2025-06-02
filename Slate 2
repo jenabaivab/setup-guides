@@ -1,1 +1,12 @@
-asdfasd
+ Data Supply Chain Risks and Mitigations
+
+The guidance places particular emphasis on the data supply chain as a significant attack vector. AI datasets are often built from components that originate outside the organization’s direct control. For example, open-source image sets, web-crawled text corpora, and licensed third-party data products may contain references to external content (such as links or file pointers) that change over time. If those links expire or content is updated, the data used during training may not match what was originally curated.
+
+A prominent risk example is “split-view poisoning” — where a referenced domain in a dataset expires, and an attacker purchases it to host malicious or misleading content. This corrupted content is then fetched during training, contaminating the model. Another tactic, “frontrunning poisoning,” involves adversaries making malicious edits to public platforms like Wikipedia just before known data snapshotting times, thereby injecting content into training datasets. Finally, web-crawled datasets (e.g., Common Crawl or other large-scale scraped corpora) are particularly vulnerable due to the lack of formal validation or provenance tracking.
+
+To mitigate these risks, the document recommends a set of technical and procedural safeguards:
+	•	Require cryptographic signing and hashing of raw datasets at the time of publication.
+	•	Use append-only, verifiable data logs that record every update or modification to training data.
+	•	Implement certificate-based validation for any data retrieved via linked content or external sources.
+	•	Avoid ingesting data from uncataloged or unverifiable sources, especially web crawls, unless custom validation infrastructure is available.
+	•	When working with foundation models or large third-party datasets, request explicit attestations or certifications that their training data sources were curated and free of known poisoning.
