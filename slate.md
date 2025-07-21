@@ -1,72 +1,88 @@
-Here’s your full info sheet on the UK Data (Use and Access) Act 2025, incorporating everything in a clear and professional format aligned with your typical structure. It is ready to use in internal decks, client communications, or regulatory updates.
+
+---
+
+Critical SharePoint Vulnerabilities Actively Exploited – Immediate Action Recommended
+
+Microsoft has released emergency security updates to address two serious vulnerabilities in its on-premise SharePoint Server platform. One of these vulnerabilities, a critical remote code execution flaw tracked as CVE-2025-53770, is already being exploited in the wild by attackers. Organizations using affected SharePoint versions are strongly advised to apply the relevant patches as soon as possible.
+
+These vulnerabilities do not affect SharePoint Online (Microsoft 365).
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued a public alert in response to ongoing exploitation.
 
 
 ---
 
-🇬🇧 UK Data (Use and Access) Act 2025 – Info Sheet
+What You Need to Know
 
-📝 What Happened?
+Microsoft has identified two vulnerabilities impacting SharePoint Server:
 
-The Data (Use and Access) Act 2025 (DUAA) received Royal Assent on 19 June 2025, introducing sweeping reforms to the UK’s data protection landscape. It amends the UK GDPR, the Data Protection Act 2018 (DPA 2018), and the Privacy and Electronic Communications Regulations (PECR), aiming to reduce compliance burdens, encourage data-driven innovation, and boost digital infrastructure (including smart data and digital identity). The Act preserves many EU-style rights and principles, but formalises divergence in areas like international data transfers, automated decision-making, and cookies. Key provisions will be phased in through secondary legislation across 2025–26.
+CVE-2025-53770 is a critical flaw that could allow attackers to run unauthorized code on a vulnerable server. This could lead to full control of the system, data theft, or further compromise of other connected systems.
 
-
----
-
-🧍 Affected Entities
-
-The DUAA applies to a broad spectrum of organisations that process personal data in the UK. While many reforms reduce compliance friction, they also require proactive updates to internal policies, legal bases, and data governance strategies.
-
-Private-sector businesses processing customer, user, or employee data.
-
-Technology and AI developers using automation or machine learning on UK data.
-
-Regulated industries (e.g. energy, finance, telecom) participating in smart data schemes.
-
-Public bodies handling civil registration, digital identity, or public infrastructure data.
-
-Cross-border firms relying on UK–EU data flows or international transfers.
-
-Online platforms and marketers using cookies, analytics, or targeting tools.
+CVE-2025-53771 is a related vulnerability that helps attackers disguise their activity and bypass security controls.
 
 
+These vulnerabilities affect:
 
----
+SharePoint Server 2016
 
-🔄 Notable Shifts in Obligations
+SharePoint Server 2019
 
-Change	Description
+SharePoint Server Subscription Edition
 
-Legitimate Interests Expanded	- Introduces a new lawful basis: “recognised legitimate interests” (e.g., national security, crime prevention, safeguarding). <br> - These uses don’t require a balancing test. <br> - Clarifies other routine use cases like fraud prevention and IT security that often qualify.
-Automated Decision‑Making (ADM)	- Broader use permitted without consent for non-special category data. <br> - Safeguards required where decisions have legal or significant effects: <ul><li>Notice to individuals</li><li>Right to human review</li><li>Right to challenge</li></ul> <br> - Special category ADM still restricted.
-Cookies and Tracking Technologies	- Consent no longer needed for first-party analytics, fraud prevention, and authentication cookies. <br> - Consent still required for advertising and profiling cookies. <br> - Allows simpler banners and improved UX compliance.
-Subject Access Requests (SARs)	- Adds “stop-the-clock” mechanism when requests lack clarity or sufficient info. <br> - Codifies reasonable/proportionate search limits. <br> - Helps prevent abuse of SAR rights.
-Scientific Research	- Defines “scientific research” to include academic, industrial, and commercial uses. <br> - Permits broad consent for future unspecified research. <br> - Allows limited data subject notice where it’s disproportionate.
-Children’s Data Protection	- Introduces new obligations for “higher protection matters” when services are likely accessed by children. <br> - Requires organisations to consider age-appropriate design and safeguards.
-Smart Data Schemes Introduced	- Enables government-mandated data portability in regulated sectors. <br> - Empowers consumers to share data with authorised third parties. <br> - Supports fairer pricing, product switching, and competition.
-International Data Transfers	- Lowers standard for adequacy: “not materially lower” replaces “essentially equivalent.” <br> - Removes 4-year adequacy review—ongoing risk monitoring instead. <br> - Adds new emergency transfer pathways, including for law enforcement.
-Purpose Limitation Clarified	- Defines when further processing is “compatible” with original purpose. <br> - Allows reuse for law enforcement, legal obligations, or public interest scenarios. <br> - Enables non-disclosure if informing data subjects is disproportionate.
-Regulatory Reform: ICO to Information Commission	- ICO becomes the Information Commission. <br> - Secretary of State can issue binding guidance and strategic direction. <br> - Aligns PECR penalties (e.g., cookie violations) with GDPR levels: up to £17.5M or 4% of global turnover.
-Complaints Handling Requirements	- Mandates electronic channels for data complaints. <br> - Requires prompt acknowledgments and breach follow-up procedures.
-Law Enforcement and National Security Provisions	- Adds exemptions for legal professional privilege and national security. <br> - Allows joint data controllership between law enforcement/intelligence. <br> - Removes logging requirements for routine enforcement activities.
 
+Microsoft has confirmed that attackers are actively using these flaws to breach systems. Reports indicate that more than 75 organizations across government, education, energy, and telecom sectors have already been targeted.
+
+Security updates are now available for:
+
+SharePoint Server 2019 – KB5002754
+
+SharePoint Server Subscription Edition – KB5002768
+
+
+A patch for SharePoint Server 2016 is still pending.
+
+Organizations with internet-facing SharePoint servers that have not been patched are at especially high risk.
 
 
 ---
 
-🗝️ Key Terminology
+Our Guidance
 
-Term	Definition
+To protect your environment and limit potential impact, we recommend the following steps:
 
-Recognised Legitimate Interests	Specific purposes (e.g. public security, child safeguarding) exempt from balancing test under UK GDPR.
-Smart Data Scheme	Government-backed initiative mandating consumer data portability within a sector (e.g. energy, finance, telecom).
-Data Bridge	UK-specific mechanism for international data adequacy, replacing “essentially equivalent” EU test.
-Stop-the-Clock	Legal pause in the SAR response timeframe when waiting on clarification from the data subject.
-Information Commission	Rebranded UK data regulator with broadened remit and new government oversight powers.
-Scientific Research	Encompasses academic and commercial research; supports broad consent and limited transparency where justified.
+1. Apply Microsoft’s July 2025 security updates immediately:
 
+For SharePoint Server 2019, apply KB5002754.
+
+For SharePoint Server Subscription Edition, apply KB5002768.
+
+For SharePoint Server 2016, monitor Microsoft’s Security Portal for the patch release.
+
+
+
+2. If patching cannot be done right away, temporarily disconnect vulnerable SharePoint servers from the internet to prevent external attacks.
+
+
+3. After patching, Microsoft recommends:
+
+Rotating ASP.NET machine keys (used to protect authentication and session data).
+
+Turning on AMSI (Antimalware Scan Interface) to help detect malicious code within SharePoint.
+
+Using endpoint protection tools (like Microsoft Defender for Endpoint) to monitor for suspicious activity.
+
+
+
+4. Ask your IT or security teams to review logs for unusual access or behavior. In known attacks, attackers have used specific techniques, such as sending requests to:
+
+/_layouts/15/ToolPane.aspx?DisplayMode=Edit
+
+
+
+Organizations should treat this as a high-priority security issue. If you are unsure whether your environment is affected, or need help assessing exposure and applying the appropriate fixes, ACA’s cybersecurity team is available to assist.
 
 
 ---
 
-Let me know if you'd like this converted into a Word template or if you want a parallel “Implications for Cybersecurity” brief as well.
+Let me know if you want a shorter summary version for a newsletter or email, or a separate client-facing FAQ.
 
