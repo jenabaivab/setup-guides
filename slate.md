@@ -1,37 +1,42 @@
-Microsoft Sharepoint Vulnerability Under Active Exploitation – Urgent Patching Required
-Microsoft has released emergency security updates to address two serious vulnerabilities in its on-premises SharePoint Server platform. One of these vulnerabilities, a critical remote code execution flaw tracked as CVE-2025-53770, is already being exploited in the wild by attackers. Organizations using affected SharePoint versions are strongly advised to apply the relevant patches as soon as possible.
-Microsoft has confirmed that attackers are actively using these flaws to breach systems. Reports indicate that more than 75 organizations across government, education, energy, and telecom sectors have already been targeted. These vulnerabilities do not affect SharePoint Online (Microsoft 365). The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued a public alert in response to ongoing exploitation.
+What You’ll Learn: 
+This guide outlines key considerations and best practices meant to help firms in selecting and working with managed service providers (MSPs) to enhance or improve their IT capabilities.
 
-Vulnerability Details
+Why it Matters: 
 
-Microsoft has identified two vulnerabilities impacting SharePoint Server:
-•	CVE-2025-53770 (Severity Score: 9.8/10) is a critical flaw that could allow attackers to run unauthorized code on a vulnerable server. This could lead to full control of the system, data theft, or further compromise of other connected systems.
+With the world’s greater reliance on the digital space and the increasing complexity of IT infrastructure, demand for cost-effective IT solutions has grown world-wide. Small and medium-sized businesses have increasingly relied on managed service providers (MSPs) to bolster their IT capabilities, with the MSP services industry experiencing over a 10% annual rate of growth in 2024. 
+While MSPs can present significant benefits, including greater capacity and accessibility to handle gaps in a company’s existing IT competencies, it is essential that companies be considerate in their approach to working with MSPs, to ensure they are not leaving themselves open to unnecessary risks. 
 
-•	CVE-2025-53771 (Severity Score: 6.3/10) is a related vulnerability that helps attackers disguise their activity and bypass security controls.
+Key Considerations: 
+»	Select the MSP most appropriate for your company’s context.
+»	Set good communication standards with your MSPs.
+»	Maintain strong oversight over your MSPs. 
 
-The following versions of SharePoint Server are impacted by these vulnerabilities:
-•	SharePoint Server 2016
-•	SharePoint Server 2019
-•	SharePoint Server Subscription Edition
+Basic Tasks: 
 
-Security updates are now available for Sharepoint Server 2019 and SharePoint Server Subscription Edition. Patches for SharePoint Server 2016 are still pending and will be released shortly. Organizations with internet-facing SharePoint servers that have not been patched are at especially high risk.
+	Balance Cost and Service
+Before deciding on an MSP, ensure you thoroughly assess your own IT needs and what services you need to determine what MSP pricing model best suits your organization. Your organization’s areas of operation, industry associated risks, size, and available budget should all be considered when it comes to determining what services may be needed. 
 
-Our Guidance
-To protect your environment and limit potential impact, ACA recommends the following steps:
-•	Apply Microsoft’s July 2025 security updates immediately:
+	Consider the MSP’s Experience, Expertise, and Scalability
+While most MSPs will try to establish their experience and expertise, core competencies and experience areas may always be supplemented by less experienced contractors. Utilize references that align with your company’s industry and size to ensure the MSP’s expertise actually aligns with your needs and growth strategies, to reduce the costs of changing MSPs later. 
 
-	For SharePoint Server 2019, apply KB5002754.
-	For SharePoint Server Subscription Edition, apply KB5002768.
-	For SharePoint Server 2016, monitor Microsoft’s Security Portal for the patch release.
+	Establish Clear Expectations
+Ensure the service level agreement (SLA) between your company and the MSP establishes clear roles and responsibilities, outlines high and low priority issues and their expected response times, and defines a process for how your organization may reach out to the MSP in case of emergency. Setting clear expectations when first establishing an agreement is key to ensuring effective collaboration between your company and your MSPs. 
 
-•	If patching cannot be done right away, temporarily disconnect vulnerable SharePoint servers from the internet to prevent external attacks.
+	Establish Regular Communication
+Communicate with the MSP on a regular basis, not just when issues occur. Regular check-ins can be helpful in addressing gaps early and allow the MSP to provide guidance on new and emerging issues. An effective communication model would determine frequency of check-ins, and what reporting would be expected from the MSP. 
 
-•	After patching, Microsoft recommends:
+	Communicate Security Concerns 
+It is important that companies do not assume their use of an MSP fully exempts them from responsibility for IT risks. Instead, companies should ensure they are kept aware of emerging risks and communicate frequently with the MSPs about such risks, their security, and any steps they are taking to ensure their systems are protected against threats. 
 
-	Rotating ASP.NET machine keys (used to protect authentication and session data).
-	Turning on AMSI (Antimalware Scan Interface) to help detect malicious code within SharePoint.
-	Using endpoint protection tools (like Microsoft Defender for Endpoint) to monitor suspicious activity.
+Advanced Tasks: 
 
-•	Ask your IT or security teams to review logs for unusual access or behavior. In known attacks, attackers have used specific techniques, such as sending requests to:
+	Operational Resilience
+MSPs serve as a critical line of defense in cybersecurity, incident response, and recovery. Gaps in the MSP’s operational resilience will create significant risks for your organization’s own resilience. It is essential to perform proper due diligence ahead of MSP selection, to address the MSP’s resilience and security posture. Whenever possible, a trusted third party should be used to properly assess the MSP’s capabilities. 
 
-/_layouts/15/ToolPane.aspx?DisplayMode=Edit
+	Share Strategy and Objectives
+Transparency is key in the collaborative relationship that must exist between a company and their MSP. To help the MSP understand how their work fits in with your organization’s goals and growth, your strategies and objectives should be clearly communicated. A better understanding on the MSP’s side will allow them to make sure they can address unique opportunities and risks that may affect your organization. 
+
+	Hold MSPs Accountable
+MSPs should be regularly evaluated on key metrics such as satisfaction, responsiveness, and speed to resolution. These evaluations must be shared with the MSPs to motivate continuous improvement in the working relationship between the company and the MSP.
+
+Sorry, i forgot we also have a small section on "What you'll learn" at the top
