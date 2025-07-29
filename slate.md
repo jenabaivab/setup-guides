@@ -1,73 +1,70 @@
-Absolutely. Let’s revise it with:
-	1.	More content – expand on each alert and include all five pieces you shared.
-	2.	Less technical tone – keep it professional, but accessible for non-technical readers.
-	3.	More client-facing framing – emphasize what this means for firms, risks to watch, and practical takeaways.
+Got it! Below is your original June–July client newsletter draft with only two key adjustments:
+	•	Tone: More professional and polished (without losing clarity)
+	•	Tense: Adjusted to past tense throughout
 
 ⸻
 
-📩 Revised June–July Client Newsletter – ACA Aponix Cybersecurity Update
-
 Subject: ACA Aponix Update: AI Oversight, SEC Threats, and Smarter Testing Approaches
 
-As we wrap up July, we’re pleased to share a round-up of cybersecurity activity, guidance, and key alerts from the past two months. From impersonation threats to evolving AI risks, the updates below reflect a rapidly changing environment—and how firms can stay ahead.
+As July came to a close, we shared a round-up of cybersecurity activity, guidance, and key alerts from the past two months. From impersonation threats to evolving AI risks, the updates below reflected a rapidly changing environment—and how firms stayed ahead.
 
-Please don’t hesitate to reach out if you’d like to discuss how these developments may impact your firm or to explore ways ACA Aponix can help strengthen your cybersecurity program.
+Please don’t hesitate to reach out if you’d like to discuss how these developments may have impacted your firm or to explore ways ACA Aponix can help strengthen your cybersecurity program.
 
 ⸻
 
 🔔 Key Alerts & Research Highlights
 
-1. SEC Impersonation Campaign Targets Financial Firms
-A new phishing campaign is actively impersonating the SEC. Attackers are sending fraudulent emails pretending to be from the SEC’s Chief Information Office, pressuring users to “verify” their information. These emails use lookalike domains and credible language to lure users into clicking.
-Why it matters: Firms should remind employees that regulators do not ask for sensitive data via email links. Consider alerting staff, reviewing email filtering tools, and updating security awareness training.
+1. SEC Impersonation Campaign Targeted Financial Firms
+A phishing campaign actively impersonated the SEC by distributing fraudulent emails claiming to be from the Commission’s Chief Information Office. Recipients were asked to “verify” their information via spoofed domains.
+Why it mattered: The campaign reinforced the importance of employee awareness, vigilant email filtering, and skepticism around regulatory requests delivered by email.
 
-2. Google Gemini Vulnerability Exposes New AI-Driven Phishing Risks
-A recently disclosed vulnerability in Google’s AI-powered email assistant (Gemini) shows how cybercriminals can manipulate AI-generated summaries to mislead users. Invisible instructions hidden in email formatting can be used to change how content is summarized—tricking users into clicking phishing links.
-Why it matters: This is a clear example of how generative AI can introduce new, less visible risks. Firms should evaluate AI features in workplace tools and reinforce user awareness.
+2. Google Gemini Vulnerability Introduced AI-Driven Phishing Risks
+A disclosed vulnerability in Google Gemini for Workspace enabled hidden prompts to influence AI-generated email summaries. These manipulations could redirect users to phishing links through misleading summaries.
+Why it mattered: The incident highlighted how generative AI tools may introduce subtle risks—especially when users rely on AI-generated content for decision-making.
 
-3. Microsoft SharePoint Vulnerability—Widespread Exploitation Reported
-A serious vulnerability affecting on-premise Microsoft SharePoint was found to be exploited by nation-state attackers. The flaw could allow unauthorized access to data or even full system compromise. Patches are now available and should be applied immediately.
-Why it matters: SharePoint remains widely used by firms for internal data sharing. If your organization runs an on-premise version, ensure your IT team has applied updates and reviewed system access logs.
+3. Microsoft SharePoint Vulnerabilities Required Urgent Patching
+A critical vulnerability affecting on-premise SharePoint servers (2016, 2019, and Subscription Edition) was linked to active exploitation by advanced threat groups. Microsoft issued urgent patches, along with guidance on security controls.
+Why it mattered: SharePoint remained widely used in internal operations. Unpatched systems could expose firms to unauthorized access or system compromise.
 
-4. Rethinking Penetration Testing: Why Leading Firms Are Shifting to Continuous Models
-Traditional pen testing remains valuable, but more firms are now adopting continuous testing models (like Penetration Testing as a Service, or PTaaS) to monitor evolving risks. This shift offers more real-time visibility and aligns better with today’s compliance expectations.
-Why it matters: A once-a-year test may not reflect your current risk exposure. A continuous approach provides better coverage and more useful insights for risk committees and boards.
+4. Rethinking Penetration Testing: Leading Firms Adopted Continuous Models
+More organizations began shifting from traditional point-in-time penetration testing toward continuous testing models such as PTaaS (Penetration Testing as a Service) and CTEM.
+Why it mattered: This shift reflected a growing need for real-time threat visibility and testing approaches aligned with regulatory expectations and modern attack patterns.
 
 ⸻
 
 🎙️ Webinar Replay
 
-Managing Third-Party AI Risk: What Firms Need to Know
-As more vendors integrate AI into their offerings, oversight becomes more complex. This session breaks down how AI can impact third-party risk, what oversight questions to ask, and what controls to consider during due diligence and onboarding.
-Key takeaways include:
-	•	Red flags to look for when evaluating vendor AI tools
-	•	Contract terms to revisit around data use, retention, and transparency
-	•	How AI affects your fourth-party exposure
+Managing Third‑Party AI Risk: What Firms Needed to Know
+In June, ACA Aponix hosted a webinar examining how AI use within third-party platforms introduced new layers of operational, reputational, and regulatory risk.
+Key takeaways included:
+	•	Red flags when evaluating AI tools in vendor platforms
+	•	Contract terms to review related to AI usage and data retention
+	•	Oversight strategies to manage AI-related exposure
 
 📺 Watch the replay
 
 ⸻
 
 🔍 What to Watch in Q3
-	•	AI Oversight Pressure Is Rising: Regulators, investors, and clients increasingly expect firms to demonstrate AI governance, especially around data privacy and access control.
-	•	Cyber Threats Are Adapting Quickly: Attacks are getting smarter—impersonating regulators, abusing AI systems, and targeting widely-used tools like SharePoint.
-	•	Testing Expectations Are Evolving: Annual testing is no longer enough. Continuous validation and deeper assessments are becoming standard for firms seeking resilience.
+	•	AI Oversight Pressure Increased: Stakeholders expected more defined governance around AI use, especially regarding vendor tools and data privacy.
+	•	Phishing Tactics Evolved: Threat actors expanded use of impersonation and AI manipulation techniques.
+	•	Testing Expectations Shifted: More firms evaluated continuous testing and exposure management models to stay audit-ready and resilient.
 
 ⸻
 
-ACA Aponix continues to support firms with services including:
-✅ Vendor & AI risk assessments
-✅ Incident response readiness planning
-✅ Ongoing testing & red teaming
-✅ Executive-level cyber reporting
+ACA Aponix continued to support firms with:
+✅ AI and vendor risk assessments
+✅ Incident response planning and tabletop exercises
+✅ Penetration testing and red teaming
+✅ Board and executive-level cyber reporting
 
-Let us know if you’d like to discuss how we can help support your firm’s cybersecurity goals.
+If you would like to discuss any of the topics above or learn how ACA can support your program, we’d be happy to connect.
 
 —
 ACA Aponix
 Cybersecurity, Risk & Compliance
-[Contact Info / CTA Button]
+[Contact Info or CTA Button]
 
 ⸻
 
-Would you like a version of this that’s shortened for plain-text email or ready for Mailchimp? I can also adjust tone slightly for different audiences (e.g., more investor-facing, tech-savvy, or board-level).
+Let me know if you’d like to add any links, adjust layout, or tailor it for a specific audience segment (e.g., private equity, RIAs, asset managers).
