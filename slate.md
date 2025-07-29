@@ -1,32 +1,73 @@
-Subject: ACA Aponix Monthly Update: Preparing for DORA, SEC Cyber Enforcement Actions, and the Aponix 10 Year Anniversary
-As October – and Cybersecurity Awareness Month - draws to a close, we wanted to take a moment to share some of our most recent updates. In this email you will find a curated summary of the last month of ACA Aponix’s research findings, and information on webinars that can help your organization stay ahead of key risks.
-Please feel free to reach out with any questions you may have about the research and alerts below, or if there is anything else we can provide related to your firm’s broader cybersecurity needs.
+Absolutely. Let’s revise it with:
+	1.	More content – expand on each alert and include all five pieces you shared.
+	2.	Less technical tone – keep it professional, but accessible for non-technical readers.
+	3.	More client-facing framing – emphasize what this means for firms, risks to watch, and practical takeaways.
 
-Alerts and Research:
-•	ACA Aponix Celebrates 10-Year Anniversary and National Cybersecurity Month
-ACA Aponix proudly celebrates its 10-year anniversary this October, marking a decade of leadership in cybersecurity and privacy risk management. This milestone aligns with National Cybersecurity Month, emphasizing the importance of staying secure in a digital world.
+⸻
 
-•	SEC Penalizes Four Companies Over Incomplete Cyber Incident Disclosures
-Learn how recent SEC enforcement actions signal a heightened focus on cybersecurity transparency. Four companies faced penalties for insufficient disclosures related to cyber incidents, underscoring the need for accurate and detailed reporting. As cybersecurity continues to be a priority in the SEC’s 2025 Examination Priorities, firms should proactively strengthen their cybersecurity programs and disclosure practices to manage risks effectively.
+📩 Revised June–July Client Newsletter – ACA Aponix Cybersecurity Update
 
-•	Vulnerabilities Discovered in Common UNIX Printing System (CUPS) Can Enable DDoS Attacks
-Recent vulnerabilities have been discovered which exposed over 198,000 CUPS servers online, with 34% exploitable for DDoS attacks, posing serious risks of remote code execution (RCE). Despite security patches from major vendors, many systems remain unpatched and vulnerable to low-cost attacks. 
+Subject: ACA Aponix Update: AI Oversight, SEC Threats, and Smarter Testing Approaches
 
-•	Governance in a Cybersecurity Portfolio Oversight Program
-Check out our latest article on how private equity firms are evolving their cybersecurity oversight to meet investor expectations. Learn why traditional approaches are no longer enough and how a programmatic strategy can enhance security and attract investments.
+As we wrap up July, we’re pleased to share a round-up of cybersecurity activity, guidance, and key alerts from the past two months. From impersonation threats to evolving AI risks, the updates below reflect a rapidly changing environment—and how firms can stay ahead.
 
-•	The ESAs Solidify Their Expectations Under DORA
-As January 17, 2025, compliance deadline for the EU’s Digital Operational Resilience Act (DORA) is approaching, firms must act swiftly to ensure readiness. The European Supervisory Authorities have released new technical standards and guidelines on incident reporting, penetration testing, and third-party risk management, emphasizing the urgent need for compliance. Don't delay in implementing these changes to your firm's resilience against ICT-related disruptions. 
+Please don’t hesitate to reach out if you’d like to discuss how these developments may impact your firm or to explore ways ACA Aponix can help strengthen your cybersecurity program.
 
-Webinars:
-•	Ready for DORA? Top Tips for Last Minute Compliance | ACA Group
-As we near the Digital Operational Resilience Act (DORA) deadline in January 2025, all affected financial entities and their partners, both inside and outside of the EU, need to ensure they are ready to meet these new standards. This webinar replay outlines key aspects of DORA compliance, including who this directive applies to, the challenges posed by DORA, and what you can do now to meet the compliance date.
+⸻
 
-•	Lessons Learned from 2024's Scariest Cyber Breaches
-Watch this webinar replay for a deep dive into this year's biggest cybersecurity incidents. Our experts, Greg Slayton and Aaron Pinnick, share key trends, response strategies, and practical insights to help your firm stay ahead of emerging threats. 
+🔔 Key Alerts & Research Highlights
 
-https://www.acaglobal.com/events/managing-third-party-ai-risk-what-firms-need-to-know/
-https://www.acaglobal.com/industry-insights/active-phishing-campaign-impersonating-the-sec-firms-should-be-on-alert/
-https://www.acaglobal.com/industry-insights/google-gemini-vulnerability-puts-gmail-users-at-risk-of-stealth-phishing-attacks/
-https://www.acaglobal.com/industry-insights/microsoft-sharepoint-vulnerability-urgent-patching-required/
-https://www.acaglobal.com/industry-insights/why-leading-organizations-are-moving-beyond-traditional-penetration-testing/
+1. SEC Impersonation Campaign Targets Financial Firms
+A new phishing campaign is actively impersonating the SEC. Attackers are sending fraudulent emails pretending to be from the SEC’s Chief Information Office, pressuring users to “verify” their information. These emails use lookalike domains and credible language to lure users into clicking.
+Why it matters: Firms should remind employees that regulators do not ask for sensitive data via email links. Consider alerting staff, reviewing email filtering tools, and updating security awareness training.
+
+2. Google Gemini Vulnerability Exposes New AI-Driven Phishing Risks
+A recently disclosed vulnerability in Google’s AI-powered email assistant (Gemini) shows how cybercriminals can manipulate AI-generated summaries to mislead users. Invisible instructions hidden in email formatting can be used to change how content is summarized—tricking users into clicking phishing links.
+Why it matters: This is a clear example of how generative AI can introduce new, less visible risks. Firms should evaluate AI features in workplace tools and reinforce user awareness.
+
+3. Microsoft SharePoint Vulnerability—Widespread Exploitation Reported
+A serious vulnerability affecting on-premise Microsoft SharePoint was found to be exploited by nation-state attackers. The flaw could allow unauthorized access to data or even full system compromise. Patches are now available and should be applied immediately.
+Why it matters: SharePoint remains widely used by firms for internal data sharing. If your organization runs an on-premise version, ensure your IT team has applied updates and reviewed system access logs.
+
+4. Rethinking Penetration Testing: Why Leading Firms Are Shifting to Continuous Models
+Traditional pen testing remains valuable, but more firms are now adopting continuous testing models (like Penetration Testing as a Service, or PTaaS) to monitor evolving risks. This shift offers more real-time visibility and aligns better with today’s compliance expectations.
+Why it matters: A once-a-year test may not reflect your current risk exposure. A continuous approach provides better coverage and more useful insights for risk committees and boards.
+
+⸻
+
+🎙️ Webinar Replay
+
+Managing Third-Party AI Risk: What Firms Need to Know
+As more vendors integrate AI into their offerings, oversight becomes more complex. This session breaks down how AI can impact third-party risk, what oversight questions to ask, and what controls to consider during due diligence and onboarding.
+Key takeaways include:
+	•	Red flags to look for when evaluating vendor AI tools
+	•	Contract terms to revisit around data use, retention, and transparency
+	•	How AI affects your fourth-party exposure
+
+📺 Watch the replay
+
+⸻
+
+🔍 What to Watch in Q3
+	•	AI Oversight Pressure Is Rising: Regulators, investors, and clients increasingly expect firms to demonstrate AI governance, especially around data privacy and access control.
+	•	Cyber Threats Are Adapting Quickly: Attacks are getting smarter—impersonating regulators, abusing AI systems, and targeting widely-used tools like SharePoint.
+	•	Testing Expectations Are Evolving: Annual testing is no longer enough. Continuous validation and deeper assessments are becoming standard for firms seeking resilience.
+
+⸻
+
+ACA Aponix continues to support firms with services including:
+✅ Vendor & AI risk assessments
+✅ Incident response readiness planning
+✅ Ongoing testing & red teaming
+✅ Executive-level cyber reporting
+
+Let us know if you’d like to discuss how we can help support your firm’s cybersecurity goals.
+
+—
+ACA Aponix
+Cybersecurity, Risk & Compliance
+[Contact Info / CTA Button]
+
+⸻
+
+Would you like a version of this that’s shortened for plain-text email or ready for Mailchimp? I can also adjust tone slightly for different audiences (e.g., more investor-facing, tech-savvy, or board-level).
