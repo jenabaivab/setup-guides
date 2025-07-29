@@ -25,3 +25,8 @@ As we near the Digital Operational Resilience Act (DORA) deadline in January 202
 •	Lessons Learned from 2024's Scariest Cyber Breaches
 Watch this webinar replay for a deep dive into this year's biggest cybersecurity incidents. Our experts, Greg Slayton and Aaron Pinnick, share key trends, response strategies, and practical insights to help your firm stay ahead of emerging threats. 
 
+https://www.acaglobal.com/events/managing-third-party-ai-risk-what-firms-need-to-know/
+https://www.acaglobal.com/industry-insights/active-phishing-campaign-impersonating-the-sec-firms-should-be-on-alert/
+https://www.acaglobal.com/industry-insights/google-gemini-vulnerability-puts-gmail-users-at-risk-of-stealth-phishing-attacks/
+https://www.acaglobal.com/industry-insights/microsoft-sharepoint-vulnerability-urgent-patching-required/
+https://www.acaglobal.com/industry-insights/why-leading-organizations-are-moving-beyond-traditional-penetration-testing/
