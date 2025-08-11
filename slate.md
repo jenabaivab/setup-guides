@@ -1,4 +1,4 @@
-<img width="1599" height="67" alt="image" src="https://github.com/user-attachments/assets/bda4aa15-3edd-4a9b-8c14-e4afb73dfef4" />Governance				
+Governance				
 Establish cybersercurity governance committee and schedule periodic meetings of the committee.	Quarterly			
 Maintain and review the firm's Written Information Security Policy (WISP).	Annually			
 Assess the effectiveness of the cybersecurity program, related policies, and controls.	Annually			
