@@ -1,38 +1,57 @@
-Why it Matters 
-
-To effectively manage cybersecurity risk – and reduce the likelihood and potential impacts of a cybersecurity incident – firms must invest the time and resources into the development of a formal cybersecurity program.  A formalized cybersecurity program, with key elements of a mature program (e.g., KPIs, adequate resourcing) ensures that the firm takes a unified approach to cybersecurity risk management, aligning cybersecurity efforts with the firm’s overall business strategy and objectives. Without a formal and effective cybersecurity program, this critical risk is likely to be managed by fragmented policies and procedures, which leave the firm exposed to incidents that can significantly impact the firm’s health, and leave the firm open to potential regulatory violations. 
-
-RealRisk Assessment Indicators			
-
-RealRisk uses the following indicators to assess this area: 
-»	Budget allocation and approach to the security program
-»	Using metrics with C-level inputs to inform KPI/KRIs
-»	Implementation of a regulatory and compliance program using third-party tools
-
-How to Lower Risk 
-
-The following is ACA Aponix’s guidance for how companies can lower their risk in this area:     
-
-Essential Components
-
-	Allocating Budget Strategically Across Divisions
-Strategic budget allocation involves judiciously assigning resources based on a thorough risk assessment, and prioritizing initiatives that fortify cybersecurity. It requires a proactive stance, directing resources toward preventive measures like employee training, robust infrastructure, and emerging technology solutions. By aligning the budget with the organization's risk profile and business objectives, strategic allocation ensures an optimal balance between cost-effectiveness and the ability to mitigate evolving cyber threats, fostering a resilient cybersecurity posture.
-
-	Utilizing Metrics in Decision-Making
-Metrics-driven decision-making entails establishing key performance indicators (KPIs) and key risk indicators (KRIs) to quantitatively assess the effectiveness of the cybersecurity program. Analyzing these metrics provides valuable insights into the organization's security posture, enabling informed decision-making. This data-driven approach facilitates the identification of strengths, weaknesses, and areas for improvement, allowing for effective resource allocation and adaptation of strategies to address emerging threats. It can also help demonstrate to key stakeholders the value of the program and provide regulators with assurances of the program’s effectiveness.
-	Implementing a Comprehensive Regulatory Compliance Program
-The implementation of a robust regulatory compliance program ensures adherence to industry and legal standards. Organizations have the option to build an in-house program or lean on external tools and firms for assistance in managing the program. Conducting regular audits and assessments verify compliance, reducing the organization's legal and financial risks. By staying abreast of evolving regulations and leveraging external expertise, organizations can proactively address compliance requirements, safeguard sensitive data, and demonstrate a commitment to ethical business practices.
-
-	Employing a Holistic Security Approach
-The holistic security approach entails integrating cybersecurity measures across people, processes, and technology to create a comprehensive defense strategy. It goes beyond technology-centric solutions, encompassing employee training, robust processes, and strategic planning. By treating cybersecurity as an integral part of the overall organizational strategy, this approach ensures a layered defense against evolving threats. It emphasizes proactive measures, adaptability, and continuous improvement, fostering a resilient security posture.
-
-Advanced Components
-
-	Setting Up Security Awareness Programs
-Through training sessions, workshops, and communication channels, employees become informed about potential risks such as phishing and social engineering. The training program cultivates a culture of vigilance and encourages proactive reporting of suspicious activities. By enhancing the awareness of cybersecurity within the organization, employees become a critical line of defense, contributing to a more secure environment. 
-
-	Executive Involvement in Metrics-based Decision Making
-C-level executives actively evaluate key performance indicators and key risk indicators to gain insights into the organization's security posture. By understanding and interpreting these metrics, executives can assess the effectiveness of security measures, allocate resources strategically, and make informed decisions to address emerging threats. This hands-on approach ensures that cybersecurity aligns with business goals, enhancing overall organizational resilience.
-	
-	Conduct Regular Security Audits
-These audits involve in-depth assessments of the design and effectiveness of security controls and procedures, providing insights into potential weaknesses that could be exploited by malicious actors. By conducting these audits regularly, organizations can stay ahead of emerging threats, adapt security strategies, and bolster their defenses. The process should include, but not necessarily limited to, reviewing elements such as access controls, configurations, and monitoring mechanisms to maintain a robust security posture.
+GEN 5.5.2			
+1	An Authorised Person must establish and maintain a Cyber Risk Management Framework to identify, assess and manage Cyber Risk effectively in an integrated and comprehensive manner.	A Firm must establish, implement and maintain a framework to manage cyber risks.	Establish a formal, scheduled process to review all cyber and information security policies, including those related to the firm's cyber risk management framework, at least annually. Ensure that each review is documented, including the date of the review, any updates made, and final approval by senior management.
+2	An Authorised Person must ensure the Cyber Risk Management Framework is in writing and is approved by its Governing Body.	Is the cybersecurity framework formally documented? Has it been approved by the board, governing committee, etc.?	Establish a formal, scheduled process to review all cyber and information security policies, including those related to the firm's cyber risk management framework, at least annually. Ensure that each review is documented, including the date of the review, any updates made, and final approval by senior management.
+3a	"The Cyber Risk Management Framework must:
+(a) include systems and controls which are appropriate to the nature, scale and complexity of the activities conducted by the Authorised Person; "	Does the Cyber Risk Management Framework include systems and controls appropriately aligned to the nature, scale and complexity of the business activities?	"Conduct Risk Assessment to identify which system and controls are necessary based on nature and complexity of business
+Implement controls and review them periodically for effectiveness."
+3b	"The Cyber Risk Management Framework must:
+(b) have clearly defined roles and responsibilities, including accountability for decision making during business-as-usual operations as well as in stressed situations."	Are cybersecurity roles and responsibilities clearly outlined for all conditions? 	Roles and responsibilities should be clearly defined for all personnel, with explicit accountability for decision-making during both business-as-usual operations and stressed situations. A formal decision-making framework or escalation matrix should be established to outline authority levels and escalation protocols.
+4a	"The systems and controls in (3)(a) must include:
+(a) system for identifying and assessing Cyber Risk which enables 
+the Authorised Person to implement the requirements in Rule 
+5.5.5; "	Are there systems and controls as mentioned in 3(a) in place to identify and assess Cyber Risks.	Establish a formal process to conduct Risk Assessments at regular intervals to identify and assess Cyber Risks.
+4b	"The systems and controls in (3)(a) must include:
+(b) a system for protecting ICT Assets in accordance with Rules 
+5.5.6 to 5.5.15;"	Are there systems and controls as mentioned in 3(a) in place to protect the ICT Assets.	Firm should have systems and controls in place to protect the ICT Assets.
+4c	"The systems and controls in (3)(a) must include:
+(c) a system for managing and controlling Cyber Incidents which 
+enables the Authorised Person to comply with the requirements 
+in Rules 5.5.16 to 5.5.18"	"Are business Impact Analyses conducted across the Firm?
+Is there an Incident Response plan in place for managing and controlling cyber incidents."	Establish contingency plans (e.g., incident response, business continuity, disaster recovery) for responding to and recovering from cyber Incidents. Review all the plans atleast annually.
+5	"An Authorised Person must review periodically, and at least annually, 
+its Cyber Risk Management Framework to ensure that it remains 
+appropriate, effective and up-to-date."	At what frequency is the Cyber Risk Management Framework reviewed?	Review the Cyber Risk Management Framework atleast annually.
+6	"An Authorised Person must integrate its Cyber Risk Management 
+Framework within its overall risk management framework established 
+under GEN Rules 5.3.4 to 5.3.6"	Does the origanization have an overall Risk Management Framework and is the Cyber Risk Management Framework integrated with the same?	Integrate Cyber Risk Framework with Overall Risk Management Framework and confirm that the framework is formally established, documented and operational.
+GEN 5.5.3			
+1	"An Authorised Person must manage Third-Party Cyber Risk as an 
+integral part of its Cyber Risk Management Framework established 
+under Rule 5.5.2, including by:"	Do you have a Third Party Risk Management program in place? Is it an integral part of your Cyber Risk Management Framework?	Establish a comprehensive Third Party Risk Management Program and ensure it is integrated with the overall cyber risk management framework.
+1a	"(a)undertaking due diligence to ensure that it chooses suitable 
+third party providers of ICT Services that comply with 
+appropriate cyber security standards"	How do you conduct the due diligence for your ICT Service providers or vendors? Do you have a documented process in place?	Establish and document a structured due diligence process for selecting third-party ICT service providers.
+1b	"(b)ensuring that the terms of the contractual arrangements with a 
+third party provider of ICT Services require the third party to:"	Does the Firm have a a contractual arrangements with each of your ICT service providers or vendors?	Firm should have contractual agreement with all the vendors including the important cluases.
+1b(i)	"(i)comply with the Authorised Person’s cyber security 
+requirements"	Does the contract include clauses related to complying with the security requirements of the organization?	Ensure that all contracts with third-party ICT service providers explicitly require compliance with the Firm's cybersecurity requirements.
+1b(ii)	"notify the Authorised Person about any Cyber Incident 
+that may affect the Authorised Person; "	Does the contract include clauses related to breach notification and Incident response?	The Firm should mandate in contractual arrangements that third-party providers promptly notify them of any Cyber Incident that could impact the Firm’s operations, data, or systems. The contract should specify timelines for notification (e.g., within72 hours), the format of reporting, and escalation procedures.
+1b(iii)	"collaborate with the Authorised Person in remediating 
+the impact of a Cyber Incident on the Authorised 
+Person; "	Is there a documented process or mechanism in place to ensure that the third party collaborates with the Firm in remediating the impact of Cyber incident (for eg an Incident Response plan)	The Firm should require third-party ICT service providers to actively collaborate in the remediation of Cyber Incidents.
+1b(iv)	"allow the Authorised Person to verify that the third party 
+continues to meet the Authorised Person’s cyber 
+security requirements; and"	Does the contract include "Right to Audit" clause where the Firm can verify that the third party continues to meet the cyber security requirements.	Contracts with third-party ICT providers should grant the Firm the right to verify, through audits, certifications, or assessments, that the provider continues to comply with the Firm’s cybersecurity requirements.
+1c	"supervising effectively the provision of ICT Services by third 
+parties."	"Does the Firm regulary verify that the third party complies with the organizations cyber security requirements (eg through use of Right to Audit or through Independent Audit reports.
+What is the frequency and scope of the reviews?"	Implement a robust third-party oversight framework, including ongoing monitoring, periodic reviews, and performance assessments, to ensure that ICT services are delivered securely and in alignment with regulatory and organisational requirements.
+2	"An Authorised Person that relies on the provision of ICT Services by a 
+third party remains fully responsible for compliance with, and the 
+discharge of, all obligations under this section."	Does the Firm retain accountability for compliance when ICT services are outsourced to a third party? 	Maintain clear accountability by recognising that outsourcing ICT services does not transfer regulatory responsibility.
+GEN 5.5.4			
+1	"An Authorised Person must ensure that its Governing Body and senior 
+management are ultimately responsible for ensuring that its Cyber 
+Risk Management Framework is followed and that Cyber Risk is 
+managed effectively."	"Does your Firm have a Governance structure in place?
+Are the roles and responsiblities of the Governing body and senior management defined?"	The Firm should have a Governance structure along with clearly defined roles and responsibiliies and it should reflect within the Information Security Policy.
