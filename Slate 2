@@ -1,55 +1,22 @@
-Absolutely. Here’s GEN 3.5.2 – Third-Party Cyber Risk Management rewritten in your requested sequence format:
+Apologies for the confusion earlier. Upon reviewing the ADGM General Rulebook (VER11.290725), here is the corrected and detailed table for GEN 3.5.3 – Governance of Cyber Risk Management in the requested 4-column format:
 
 
 ---
 
-1
-Requirement: An Authorised Person must manage Third-Party Cyber Risk as part of its Cyber Risk Management Framework established under Rule 3.5.1, including by:
-Question: Have you integrated Third-Party Cyber Risk into your Cyber Risk Management Framework?
-Recommendation: Ensure Third-Party Cyber Risk is managed within your Cyber Risk Management Framework.
+GEN 3.5.3 – Governance of Cyber Risk Management
 
-1(a)
-Requirement: Undertaking due diligence to ensure that it chooses suitable third-party providers of ICT Services that comply with appropriate cyber security standards;
-Question: How do you assess the suitability of third-party ICT service providers?
-Recommendation: Implement a due diligence process to evaluate third-party ICT service providers against appropriate cybersecurity standards.
+Req. No	Requirement	Question	Recommendation
 
-1(b)
-Requirement: Entering into appropriate contractual arrangements with third-party providers of ICT Services;
-Question: Are formal contracts in place with third-party ICT service providers?
-Recommendation: Establish and maintain formal contractual agreements with third-party ICT service providers.
+1	An Authorised Person must ensure that its Governing Body and senior management are ultimately responsible for ensuring that its Cyber Risk Management Framework is implemented and integrated within its overall risk management framework and that Cyber Risk is managed effectively.	Does your firm have a governance structure where the Governing Body and senior management are accountable for cyber risk management?	Ensure the Governing Body and senior management are formally accountable for cyber risk management, with responsibilities documented in policies.
+2	Without limiting the operation of (1), the responsibilities of an Authorised Person’s Governing Body and senior management in respect of Cyber Risk include:	Are the responsibilities of the Governing Body and senior management clearly defined?	Clearly define and document the responsibilities of the Governing Body and senior management regarding cyber risk.
+2(a)	Ensuring that Cyber Risk is adequately identified, assessed and managed in accordance with the Authorised Person’s Cyber Risk Management Framework;	How does your firm ensure that cyber risks are identified, assessed, and managed?	Implement processes to identify, assess, and manage cyber risks in line with the Cyber Risk Management Framework.
+2(b)	Establishing and maintaining a senior management structure for the management of Cyber Risk and for ensuring compliance with the Authorised Person’s Cyber Risk Management Framework;	Does your firm have a senior management structure dedicated to cyber risk management?	Establish and maintain a senior management structure responsible for cyber risk management and compliance.
+2(c)	Defining the Authorised Person’s Cyber Risk tolerance, which must be in line with its business objectives, strategy and overall risk tolerance;	Has your firm defined its cyber risk tolerance?	Define and document the firm's cyber risk tolerance in alignment with business objectives and overall risk strategy.
+2(d)	Ensuring that relevant personnel have the necessary expertise to manage Cyber Risk.	Do relevant personnel have the necessary expertise to manage cyber risks?	Ensure that personnel responsible for managing cyber risks possess the necessary expertise and training.
 
-1(c)
-Requirement: Requiring third-party providers of ICT Services to:
-Question: Do your contracts with third-party ICT service providers include specific cybersecurity requirements?
-Recommendation: Ensure contracts with third-party ICT service providers include specific cybersecurity requirements.
-
-1(c)(i)
-Requirement: Notify the Authorised Person about all Cyber Incidents it experiences that have or are likely to have a material impact on the Authorised Person;
-Question: Are third-party ICT service providers required to notify you of any cyber incidents?
-Recommendation: Include notification clauses in contracts requiring third-party ICT service providers to inform you of any cyber incidents that may affect you.
-
-1(c)(ii)
-Requirement: Cooperate with the Authorised Person in remediating the impact of those Cyber Incidents on the Authorised Person;
-Question: Do third-party ICT service providers collaborate with you in remediating cyber incidents?
-Recommendation: Ensure third-party ICT service providers cooperate in the remediation of cyber incidents.
-
-1(c)(iii)
-Requirement: Allow the Authorised Person to verify that the third party continues to meet appropriate cyber security standards;
-Question: Do you have the right to verify that third-party ICT service providers continue to meet your cybersecurity requirements?
-Recommendation: Include audit rights in contracts to verify ongoing compliance with cybersecurity requirements.
-
-1(d)
-Requirement: Effectively supervising the provision of the relevant ICT Services.
-Question: How do you supervise the provision of ICT services by third parties?
-Recommendation: Implement effective supervision mechanisms for the provision of ICT services by third parties.
-
-2
-Requirement: An Authorised Person that relies on the provision of ICT Services by a third party remains fully responsible for compliance with, and the discharge of, all obligations under the Regulations and the Rules, including Rule 3.5.
-Question: Are you aware that you remain fully responsible for compliance with all obligations when relying on third-party ICT services?
-Recommendation: Maintain awareness that reliance on third-party ICT services does not transfer your compliance obligations.
 
 
 ---
 
-If you like, I can now continue 3.5.3 and 3.5.4 in exactly the same sequential format so that the workbook is consistent. Do you want me to do that next?
+If you need further assistance or information on other sections, feel free to ask!
 
