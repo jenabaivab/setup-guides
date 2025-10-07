@@ -1,52 +1,115 @@
-1.	Opening & Objectives
-•	Purpose and attendee takeaways (detect trends early, practical advice)
-•	Brief agenda overview
+Combined Trends + Case Studies
 
-2.	Combined Trends + Case Studies (each trend followed immediately by the mapped case)
+Each trend is followed immediately by its mapped breach case.
 
-Trend 1 - Ecosystem amplification (SaaS & shared tooling)
-•	A single compromised SaaS app or MFT platform can cascade across many tenants, increasing systemic risk.
+
+---
+
+Trend 1 – Ecosystem Amplification: Shared SaaS & Supply Chain Cascades
+
+Core Idea:
+A single compromised SaaS or managed service can cascade across tenants and customers, amplifying systemic risk.
+
 Case: Salesloft / Drift SaaS compromise
-•	Timeline & impact: attacker compromises vendor/SaaS integration which cedes cross-tenant data access and pipeline corruption.
-•	Detection/response timeline: Vendor notification often arrives too late, and missing tenant telemetry slows containment.
-•	Communication/regulatory notes: coordinated vendor/tenant disclosures, regulatory breach reporting where PII exposed.
 
-Trend 2 - Legitimate tool abuse via human targeting
-•	Attackers favour social engineering to gain access to sanctioned export/admin tools, making activity appear legitimate.
-Case: Allianz CRM export / Salesforce compromise
-•	Timeline & impact: social-engineered admin access enables large-scale CRM exports.
-•	Detection/response timeline: activity mimics admin behaviour leading to delayed anomaly detection.
-•	Communication/regulatory notes: customer notification, contractual breach management, potential fines for insufficient controls.
+Timeline & Impact: Attacker compromises vendor–client integration, granting multi-tenant access and pipeline data corruption.
 
-Trend 3 - Identity & token compromise as primary vector
-•	Stolen refresh/session tokens and abused IdP sessions bypass network controls and enable broad lateral access.
-Case: NNSA / SharePoint tenant compromise
-•	Timeline & impact: compromised tokens/SSO sessions used to access sensitive tenant SharePoint sites.
-•	Detection/response timeline: session-based access evades network-based alarms; token revocation critical but slow.
-•	Communication/regulatory notes: classified/data sensitivity escalates regulatory and inter-agency coordination needs.
+Detection/Response: Late vendor notifications and missing tenant telemetry slow containment.
 
-Trend 4 - Extortion economics and targeted data exfiltration
-•	Ransomware groups increasingly perform selective theft and leverage extortion, increasing pressure to respond quickly and privately.
-Case: Marks & Spencer ransomware + operational disruptions
-•	Timeline & impact: targeted exfiltration + encryption leads to operational outages and brand damage.
-•	Detection/response timeline: extortion negotiations complicate technical recovery and legal response.
-•	Communication/regulatory notes: customer/employee notices, possible regulatory reporting, insurer and legal coordination.
+Communication/Regulatory Notes: Coordinated disclosures and reporting for exposed PII.
 
-Trend 5 - Visibility & operational readiness gaps
-•	Lack of tenant-level telemetry, export/detection alerts, and clear vendor revocation authority delays containment.
-Case: TransUnion consumer data exposure
-•	Timeline & impact: limited telemetry and slow vendor action amplify consumer data exposure.
-•	Detection/response timeline: discovery delayed by insufficient export logs and alerting.
-•	Communication/regulatory notes: mass-notification requirements, credit-reporting remediation, regulatory scrutiny.
 
-3.	Predictions for 2026
-   
-•	Increased social engineering attacks: Adversaries will use deepfakes, spear-phishing, and voice coercion to exploit human trust as technical defences have improved over time (increasing number of security software have moved to behaviour-based detection from signature-based detection). Mitigate with targeted training, red-team exercises, and authenticated secondary verification for high-risk requests.
+Supporting Example: UNFI Supply Chain Disruption (June 2025)
 
-•	Escalation of ransomware-as-a-service with double/triple extortion: Operators will combine encryption, data exfiltration, and service disruption (DDoS/leak sites) while offering ready-to-use toolkits to inexperienced bad actors. Defend with fast detection, offline/immutable backups, and coordinated legal/insurer response.
+Impact: Major operational outages across grocery distribution network after network compromise; downstream effect on retail customers.
 
-•	Human oversight as a critical factor in LLM governance: Model alignment gaps and pipeline risks make human-in-the-loop review essential for high-risk outputs. Implement role-based review gates, log audits, and continuous monitoring.
+Lessons Learned: Visibility and contingency planning across supply ecosystems remain underdeveloped; operational resilience gaps persist.
 
-5.	Live Q&A
 
-6.	Closing
+
+---
+
+Trend 2 – Trusted Tool and Infrastructure Abuse
+
+Core Idea:
+Attackers are exploiting legitimate, sanctioned, or compliance-critical tools to mask malicious behavior and avoid detection.
+
+Case A: Allianz CRM Export / Salesforce Compromise
+
+Timeline & Impact: Social-engineered admin access enabled mass CRM data export.
+
+Detection/Response: Activity mirrored legitimate admin behavior, delaying alerting.
+
+Regulatory Notes: Customer notifications and contractual remediation processes.
+
+
+Case B: TeleMessage / Smarsh Messaging Archive Breach (May 2025)
+
+Timeline & Impact: Exploited vulnerability in a trusted archiving platform used by financial institutions and agencies.
+
+Detection/Response: Minimal monitoring of compliance infrastructure delayed detection; highlights risks of over-trusting third-party “approved” tools.
+
+Regulatory Notes: Complex reporting due to exposure of regulated communications and compliance data.
+
+
+
+---
+
+Trend 3 – Identity & Token Compromise as a Primary Attack Vector
+
+Core Idea:
+Session hijacking, token theft, and SSO abuse bypass traditional network defenses and complicate incident attribution.
+
+Case: NNSA / SharePoint Tenant Compromise
+
+Timeline & Impact: Stolen tokens allowed unauthorized access to sensitive SharePoint sites.
+
+Detection/Response: Session-based intrusions evaded perimeter alarms; delayed token revocation worsened exposure.
+
+Regulatory Notes: Sensitive data escalated inter-agency coordination and reporting requirements.
+
+
+
+---
+
+Trend 4 – Targeted Data Exfiltration and Extortion Economics
+
+Core Idea:
+Modern extortion operations favor selective data theft and reputational pressure over pure encryption-based ransom tactics.
+
+Case A: Marks & Spencer Ransomware + Operational Disruption
+
+Timeline & Impact: Targeted exfiltration and encryption led to brand damage and operational outages.
+
+Response Dynamics: Negotiation and disclosure timelines complicated both legal and technical recovery.
+
+Regulatory Notes: Customer/employee notifications, regulatory and insurer coordination.
+
+
+Case B: Coinbase / TaskUs Insider Data Theft (June 2025)
+
+Timeline & Impact: Support agents at vendor TaskUs exfiltrated customer data for ransom; Coinbase refused to pay and disclosed publicly.
+
+Response Dynamics: Highlights insider threat and human risk in outsourced functions.
+
+Regulatory Notes: Legal cooperation across jurisdictions, customer redress, and insurer involvement.
+
+
+
+---
+
+Trend 5 – Visibility and Operational Readiness Gaps
+
+Core Idea:
+Organizations continue to face delayed containment and reporting due to missing telemetry, poor logging, and unclear vendor authority during incidents.
+
+Case: TransUnion Consumer Data Exposure
+
+Timeline & Impact: Limited tenant-level telemetry delayed discovery and amplified exposure.
+
+Response Dynamics: Dependence on vendor logging and slow revocation authority impaired containment.
+
+Regulatory Notes: Mass notification and credit-reporting remediation required.
+
+
+Supporting Example (Link to Trend 1): UNFI breach also underscores operational readiness failures across interconnected supply networks.
