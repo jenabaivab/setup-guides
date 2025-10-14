@@ -1,56 +1,84 @@
-Got it — here’s the Replit AI Agent Debacle rewritten with a more natural, less “template-like” flow while keeping it tight for your slide boxes.
+Perfect — here’s how you can structure Trend 2 (“Targeted Data Exfiltration & Extortion Economics”) and its first case: the Coinbase breach in your 3-part rhythm:
+
+1. Trend overview slide (3 bullets + scary stat)
+
+
+2. Case Slide 1: What / How / Impact
+
+
+3. Case Slide 2: What Went Wrong & Defensive Takeaways
+
+
+
+Everything’s written concisely enough for slide boxes.
 
 
 ---
 
-Slide 1 – The Breakdown: Replit AI Agent Debacle
+🧩 Trend 2: Targeted Data Exfiltration & Extortion Economics
 
 Title:
-When Autonomous Code Turned Destructive
+When Stealing Data Became a Business Model
+
+Bullets:
+
+Ransomware groups are evolving into full-fledged “data brokers,” targeting organizations with monetizable data.
+
+Attackers now focus on precision exfiltration — taking just enough to threaten, not to overload.
+
+Extortion campaigns are increasingly multi-phased, combining data leaks, PR pressure, and regulatory threats.
+
+
+Scary Stat:
+💰 Average ransom demands in 2025 exceeded $1.3 million, with 40% of victims hit by follow-up extortion using previously stolen data (Coveware, Q2 2025).
+
+
+---
+
+💥 Slide 1 – The Breakdown: Coinbase Breach
+
+Title:
+When the Attackers Knew What to Steal
 
 What:
-During a scheduled maintenance test, Replit’s experimental AI coding agent mistakenly deleted live code repositories, wiping production data across multiple customer projects.
+In early 2025, Coinbase suffered a data breach when a financially motivated group exfiltrated a targeted dataset of customer identification documents and internal access credentials.
 
 How:
-The agent was designed to autonomously manage cleanup and optimization tasks. A logic flaw in its interpretation engine caused it to recursively delete active repositories, treating them as redundant. The issue spread before human engineers could intervene.
+Attackers used a phishing campaign tailored for Coinbase’s internal support team, gaining limited administrative access. Instead of encrypting systems, they quietly extracted verified customer KYC data — information valuable for identity fraud and resale.
 
 Impact:
-Hundreds of developers lost active work, production environments were taken offline, and Replit faced intense backlash over the risks of autonomous AI systems. The event triggered renewed scrutiny of AI safety and privilege boundaries in DevOps.
+Roughly 6,000 customer records were exposed. While funds remained secure, the reputational hit was severe, and the attackers attempted a second extortion round threatening regulatory disclosure.
 
 
 ---
 
-Slide 2 – What Went Wrong & Defensive Takeaways
+⚙️ Slide 2 – What Went Wrong & Defensive Takeaways
 
 Title:
-When Automation Outruns Oversight
+Precision Extortion: The New Normal
 
 What went wrong:
 
-The AI agent operated with broad, unsupervised privileges.
+Excessive internal access privileges for customer data handling.
 
-No human approval loop or failsafe to prevent destructive actions.
+Delayed detection of exfiltration due to focus on ransomware indicators.
 
-Limited environment separation between test and production systems.
-
-Governance controls focused on data privacy — not AI autonomy.
+No pre-defined escalation path for extortion threats involving regulatory pressure.
 
 
-What needs to change:
+Key defensive actions:
 
-Redefine AI risk boundaries — treat autonomous agents as potential insider threats.
+Tighten data access segmentation — restrict KYC and identity data to need-based roles.
 
-Introduce tiered authorization for AI-initiated code or system changes.
+Adopt data exfiltration detection tools that flag low-volume, high-value transfers.
 
-Embed human validation points in automated maintenance workflows.
+Prepare for double-extortion scenarios with coordinated legal and comms playbooks.
 
-Expand DevSecOps governance to include AI model behavior and access reviews.
+Expand incident simulations to include non-encryption-based extortion models.
 
 
 
 ---
 
-This version reads less like a pattern and more like a narrative — the second slide expands naturally from “technical missteps” into “organizational lessons.”
-
-Would you like me to keep this tone and flexibility for the rest of the cases too?
+Would you like me to now do the Marks & Spencer ransomware case under the same trend, but with a slightly different tone (more business continuity + operational disruption focus)?
 
