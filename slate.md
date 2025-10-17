@@ -1,25 +1,41 @@
-This was my agenda initially.
+1. AI takes social engineering to the next level
 
-AI as the Ultimate Attack Accelerator
+Threat actors are using generative AI to create convincing deepfakes, emails, and voice clones that make fraud nearly impossible to spot.
 
-Targeted Data Exfiltration & Extortion Economics
+The line between real and synthetic communication is disappearing, putting brand trust and internal verification under pressure.
 
-Trusted Tool and Infrastructure Abuse
+Organizations will need stronger identity validation and human oversight as attackers learn to mimic not just messages — but people.
 
-Identity & Token Compromise as a Primary Attack Vector
 
-Ecosystem Amplification: Shared SaaS & Supply Chain Cascades
+2. Ransomware continues to mature into sophisticated extortion
 
-Our Predictions for 2026
+Ransomware groups now operate like businesses — with help desks, negotiators, and PR tactics designed to pressure victims.
 
-I got this comment
+Attacks increasingly involve data theft and public leaks, making the damage reputational and regulatory, not just operational.
 
-I would take another pass through these trends. I don’t think they are “wrong” but I think we can simplify the language on nearly all of them to make the teaching point easier to grasp.
-Something like
-1) AI-Powered Social Engineering
-2) Ransomware Continues to Mature
-3) Third Party Trust Creates Cyber Risk
-4) Interdependences Amplify Attack Impacts (I would consider rolling the SharePoint incident into this section)
-5) Predictions
+Paying the ransom no longer guarantees safety — stolen data often resurfaces in follow-up extortion attempts.
 
-Personal opinion: We may have to tweak the bullets for them as well to match with the new headings.
+
+
+---
+
+3. Third-party access opens the door to attackers
+
+Outsourced vendors and service partners remain the easiest entry point for cybercriminals targeting enterprise networks.
+
+Attackers exploit legitimate access rather than breaking in, turning trusted relationships into attack vectors.
+
+Weak vendor oversight and delayed detection often mean companies discover breaches only after the damage is done.
+
+
+
+---
+
+4. Digital interdependencies amplify the impact of every cyber attack
+
+Businesses now share infrastructure, data, and cloud platforms, meaning one breach can trigger ripple effects across entire ecosystems.
+
+Outages in a single supplier or software provider can halt operations for hundreds of downstream organizations.
+
+Cyber resilience now depends on ecosystem awareness — not just internal defenses.
+
