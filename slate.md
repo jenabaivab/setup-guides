@@ -39,3 +39,5 @@ Outages in a single supplier or software provider can halt operations for hundre
 
 Cyber resilience now depends on ecosystem awareness — not just internal defenses.
 
+My recommendation is to re-frame this trend. I don’t think anything on here is really “new” (folks should definitely disagree though!!). But more importantly, I don’t think the case studies really demonstrate these points. Again, I could be wrong.
+I would make this trend simpler. Maybe something like “Targeted Ransomware Attacks” or you could do something a little fun like “Ransomware… Yes, Its Still a Threat”
