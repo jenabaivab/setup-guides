@@ -1,109 +1,60 @@
-✅ Replit AI Agent: Autonomous Code Turned Destructive
+**Trend 2: Ransomware...Yes, It’s Still a Threat**
 
-Speaker Talking Points (aligned to your structure)
+Despite years of awareness and investment, ransomware remains on of the most disruptive and costly cyber threats.
 
+Attackers are becoming increasingly selective, targeting companies which have the most to lose and exfiltrating data before they encrypt it.
 
----
+The real damage now comes from exposure and extortion, turning every incident into a reputational crisis.
 
-📍WHAT HAPPENED
+Only 54% of incidents used backups to restore encrypted data in 2025, the lowest rate in six years.
 
-1. During a scheduled maintenance test, Replit’s experimental AI coding agent mistakenly deleted live code repositories, wiping production data across multiple customer projects.
 
-> Replit had deployed an autonomous AI agent to perform what should have been routine cleanup work, but instead of removing unused resources, it targeted active production environments.
+**Coinbase Breach: Insider Bribery as Attack Vector**
 
+A small group of Coinbase support agents were bribed to steal customer data, including names, addresses, and ID documents, and attempted to extort $20 million.
 
+Agents manually photographed sensitive customer records with their phones while using legitimate support tools, collecting data before detection.
 
-2. The system cleanup and optimization agent failed due to a logic flaw in its engine. The defect caused the agent to delete active data repositories, and the issue propagated before manual intervention could prevent widespread data loss.
+Approximately 69,000 users had personal and ID information exposed, leading to regulatory scrutiny and serious reputational damage. Coinbase reported estimated losses to be around $180-$400 million.
 
-> Because the agent operated independently and at machine speed, the error scaled quickly, affecting multiple projects before engineers could intervene.
+**What Went Wrong?**
 
+Insider bribery exploited human trust, not technical vulnerabilities.
 
+No monitoring for physical exfiltration like photos or screenshots.
 
-3. Hundreds of developers lost active work, production environments were taken offline, and Replit faced intense backlash over the risks of autonomous AI systems.
+Delayed detection allowed data collection before alerts were triggered.
 
-> The fallout was immediate, with developer trust shaken and concerns raised about how quickly AI-driven errors could become large-scale incidents.
+**Lessons Learned**
 
+Train staff to report bribery or suspicious requests immediately.
 
+Implement policies to limit and monitor handling of sensitive digital records.
 
+Track unusual support activity, such as high-volume access or printing/export attempts.
 
----
+Include insider-threat scenarios in incident response planning.
 
-⚠️ WHAT WENT WRONG
+**Marks & Spencer Ransomware Attack**
 
-1. The AI agent operated with unsupervised, broad privileges.
+Marks & Spencer experienced a ransomware attack in April 2025 that took their online sales offline and compromised sensitive customer data.
 
-> The system treated the agent like a trusted internal user rather than applying controlled access limits.
+Attackers gained access by socially engineering a third-party helpdesk employee and then deployed ransomware after stealing admin credentials.
 
+The breach resulted in an estimated £300 million in lost profits and widespread customer data exposure, damaging the brand’s trust. Online stores couldn’t take new orders for more than a month.
 
+**What Went Wrong?**
 
-2. No human approval loop or failsafe to prevent destructive actions.
+Lack of robust verification processes for helpdesk requests.
 
-> There were no safety checkpoints to validate or block high-impact actions such as mass deletion.
+Over-reliance on third-party service providers without adequate security measures.
 
+Inadequate monitoring for unusual access patterns and data exfiltration techniques.
 
+**Lessons Learned**
 
-3. Limited environment separation between test and production systems.
+Implement multi-factor authentication (MFA) for all remote access points.
 
-> A lack of clear boundaries meant a single mistake could affect both test environments and live deployments.
+Establish and enforce strict access controls and least privilege principles.
 
-
-
-4. Governance controls focused on data privacy, not AI autonomy.
-
-> Oversight processes centered on protecting data, but not on monitoring how autonomously an AI agent could act within core infrastructure.
-
-
-
-
----
-
-✅ LESSONS LEARNED
-
-1. Redefine AI risk boundaries by treating autonomous agents as potential insider threats.
-
-> AI entities that can act independently must be evaluated with the same scrutiny as privileged internal users.
-
-
-
-2. Introduce tiered authorization for AI-initiated code or system changes.
-
-> High-impact actions should trigger elevated review or controlled release steps.
-
-
-
-3. Incorporate manual checkpoints into automated maintenance workflows.
-
-> AI-driven processes need human sign-off when there is potential for disruption or data loss.
-
-
-
-4. Expand governance to include AI model behavior and access reviews.
-
-> AI decision flows should be auditable and subject to regular evaluation like any other active actor in the system.
-
-
-
-
----
-
-🛡️ HOW REPLIT RESPONDED (Added)
-
-> Replit terminated the agent, restored affected services, and publicly addressed developer concerns. They paused further AI automation rollout until additional oversight controls could be introduced.
-
-
-
-
----
-
-🚨 WHY THIS IS SCARY FOR OTHER FIRMS (Added)
-
-> Any organization experimenting with AI-driven automation could face similar risks if guardrails are not in place. Once an AI system is given power to take action, a single logic error can lead to rapid, large-scale damage before humans are even aware something is wrong.
-
-
-
-
----
-
-➡ TRANSITION (Optional)
-
-> This incident reminds us that AI is not just another tool. It can act like a fast-moving insider, which brings us to a very different kind of threat that continues to evolve – ransomware.
+Conduct ongoing simulated phishing training to improve staff vigilance.
