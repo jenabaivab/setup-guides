@@ -1,53 +1,35 @@
-This is the old tearsheet. It was called the cybersec and privacy pre deal due diligence. 
+Here are the instructions in the group chat
 
-**Gain Critical Insights into the Cybersecurity and Privacy Risks of Potential Acquisitions**
+So we already have a M&A tear sheet. I think the main objective here is to incorporate language on how we assess targets from an IT, Cyber, and / or privacy lens. Currently IT is missing from the convo. I can share some scope descriptions that can help provide clarity on what IT DD includes. But from my pov, we likely won't have to start from scratch but rather iterate on what we have
 
-PE firms now face increased pressure from limited 
-partners to ensure cybersecurity and privacy risks are 
-properly addressed within their portfolios. For most, this 
-process starts at acquisition, as deal teams work to define 
-and understand the cyber risks related to the company 
-being acquired or invested in.  
+A few initial thoughts on how to improve - 
+To be consistent with industry, let's rename throughout to M&A DD rather than pre-deal
+Let's better frame / emphasize why us vs competitors - industry expertise / dedicated portco practice, ability to respond and move quickly alongside deal movements, proprietary risk methodology
+Call out the three flavors of M&A - privacy, Tech, Cyber and a high-level overview of scope for each
 
-Pre-deal due diligence, properly performed, allows firms 
-to evaluate investment targets, their technology 
-readiness to execute a business plan, their cybersecurity 
-program quality and efficacy, and their execution and maintenance of privacy compliance. In addition, 
-pre-deal due diligence can ensure firms are better prepared to understand any potential remediation 
-costs that should be accounted for.  
+I'll share descriptions of each service here:
+
+Cyber: 
+ACA will conduct an off-site assessment of the current Cybersecurity program status of the acquisition target (the “Company”) using ACA’s proprietary RealRisk methodology. ACA will provide a readout and report, including prioritized recommendations for remediation with estimated costs. Please refer to the Appendix for full scope details.  
  
-ACA Aponix’s Pre-Deal Due Diligence services for Cybersecurity and Privacy allows firms this and more 
-through a comprehensive and efficient cybersecurity assessment, delivered by an experienced team 
-that can inform a deal team of any potential pitfalls to be found surrounding cybersecurity and 
-privacy. 
+Delivery:  
+The off-site cybersecurity diligence review of the Company includes:  
+A review of Company cybersecurity related documentation provided, and publicly accessible information on the Company as it relates to cybersecurity, including an external assessment of the Company’s network perimeter and online presence. 
+Remote interviews up to 3 hours with certain cybersecurity, information technology, and/or data protection staff at the Company (the “Assessment Interviews”). 
+A call with Client and/or Company to discuss ACA’s findings from the review (the “Findings Call”). 
+A written report, detailing RealRisk scores on a scale of 1-100, issues noted, and recommended corrective action (if any) (the “Findings Report”). 
+IT:
+ACA will conduct an offsite assessment of the current IT capabilities, environment, infrastructure, and operations of the acquisition target (the “Company”) specifically focusing on identifying areas of concern that would likely have a significant impact on cost and risk associated with the acquisition. ACA will provide a readout and report, including prioritized recommendations for remediation with estimated costs. Delivery and output may be conducted in tandem with other Due Diligence Services. Please refer to the Appendix for full scope details.  
+ 
+Delivery:  
+The off-site IT diligence review of the Company includes:  
+A review of Company IT related documentation provided by Company 
+A targeted questionnaire to gather further details to aid in the acceleration of interviews  
+Remote interviews up to 3 hours with key personnel to further identify and probe potential risks and concerns (the “Assessment Interviews”). 
+A call with Client and/or Company to discuss findings from the review (the “Findings Call”)*. 
+A written report, detailing findings and recommended corrective action (if any) (the “Findings Report”)*. 
+* The written report and findings call will be combined with Cybersecurity Findings Report and Findings call.
 
-What to Expect from ACA Aponix’s Due Diligence Service 
-Aponix’s base due diligence offering includes an offsite assessment of the current 
-Cybersecurity program of the acquisition target using ACA’s proprietary RealRisk 
-methodology.  
-The assessment is comprehensive, including extended interviews with 
-cybersecurity, information technology and data protection staff, as well as a review 
-of company cybersecurity and privacy related documentation as well as any 
-publicly accessible information on the company. An external assessment of the 
-company’s perimeter and online presence is also part of the assessment.  
-From this assessment, ACA Aponix will provide a readout and report, including 
-prioritized recommendations for remediation with estimated costs, ensuring firms 
-are fully prepared to work with their target companies in mitigating risks and 
-ensuring the security of their investment.
+Privacy is essentially same as cyber description, just sub in privacy. So think review of privacy policies and documentation, etc.
 
-ACA’s Unique Approach to Assessing Risk  
-ACA's proprietary RealRisk Framework is structured around 6 domains (Governance, 
-People & Processes, Protection, Preparedness & Response, Detection, and Application & 
-Product Security). Under each domain are sub-domains, which are called "areas", each 
-assessing distinct aspects of the company’s cybersecurity and privacy risks. 
-The RealRisk assessment methodology produces an overall RealRisk score as well as a 
-score for each domain and area within the framework, allowing firms to receive clear 
-information on where their target companies may fall short of ideal cybersecurity and 
-privacy goals. The scores, ranging from 1 (Low Risk) to 100 (High Risk) allow for easy 
-understanding of overall assessment results for a target company.  
-The use of ACA Aponix’s RealRisk risk scoring methodology links the Pre-deal due 
-diligence product to the Vantage for Cyber offering, facilitating the pursuit of 
-cybersecurity portfolio oversight for companies that choose to continue prioritizing 
-cybersecurity risk management after the pre-deal phase. 
-
-Do you understand? I will share the rest of the details once you say you understand the format.
+These are all the instructions I got from them.
