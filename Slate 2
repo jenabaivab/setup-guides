@@ -1,5 +1,130 @@
-At the core of ACA’s M&A Due Diligence service is the RealRisk Framework, a proprietary methodology that quantifies risk across IT, cybersecurity, and privacy domains. RealRisk enables deal teams to quickly understand a target’s control maturity, exposure, and overall readiness—transforming technical findings into clear, data-driven insight.
+The Scariest Breaches of 2025: Four Cyber Trends Redefining Resilience
 
-The framework evaluates six domains—Application & Product Security, Detection, Governance, People & Processes, Preparedness & Response, and Protection—covering the full spectrum of technology and security operations. Each domain is scored on a 1–100 scale, producing both domain-level and overall results that highlight key strengths, weaknesses, and potential remediation costs.
+The cyber incidents of 2025 didn’t just exploit technology — they exploited trust.
+From AI-driven impersonations to supply chain disruptions, the year’s most unsettling breaches revealed a fundamental shift: attackers are targeting the people, partners, and systems we rely on the most.
 
-RealRisk also links pre-deal diligence to post-deal oversight. Scores and findings can be integrated into ACA’s Vantage for Cyber platform, allowing firms to track improvements and monitor risk across their portfolios after acquisition.
+Here are four trends that defined 2025 — and what they tell us about the risks ahead.
+
+1. AI Takes Social Engineering to the Next Level
+
+Artificial intelligence has made social engineering more personal and convincing than ever.
+At Arup, an AI-generated deepfake of a senior executive convinced staff to transfer funds — proof that “seeing” no longer means “believing.” Meanwhile, Replit’s autonomous coding agent accidentally deleted live codebases, highlighting the risks of unsupervised automation.
+These incidents show that both attackers and internal systems can now imitate human authority. Organizations must rethink how they verify identity, approve critical actions, and supervise AI-driven processes.
+
+2. Ransomware… Yes, It’s Still a Threat
+
+Despite stronger defenses, ransomware remains one of the most profitable attack models — because it’s evolving faster than defenses.
+Coinbase saw insider bribery used to steal and extort sensitive data, while Marks & Spencer lost hundreds of millions in online revenue after attackers exploited a third-party helpdesk.
+Today, ransomware is less about encryption and more about leverage: public exposure, regulatory pressure, and brand damage. The cost isn’t just operational downtime — it’s reputation.
+
+3. Third-Party Vendor Trust Is Becoming Riskier
+
+2025 confirmed that vendor ecosystems are now the weakest link in cybersecurity.
+In the TeleMessage breach, attackers accessed unencrypted “secure” message archives from government and financial clients through a misconfigured backend system.
+The lesson is clear: your vendors’ vulnerabilities are your vulnerabilities. Oversight, encryption standards, and contractual accountability must now extend deep into the supply chain.
+
+4. Our Interdependencies Amplify Cyber Attacks
+
+The ToolShell SharePoint campaign demonstrated how a single platform flaw can cascade globally. Over 400 organizations — including the U.S. National Nuclear Security Administration — were affected by a zero-day vulnerability in a widely used connector.
+This was not a single-company breach; it was a network effect. When organizations share infrastructure, a single weak point can trigger an industry-wide crisis. Cyber resilience now requires understanding where your ecosystem begins — and where it doesn’t end.
+
+Looking Ahead: Monsters Under the Bed (Predictions for 2026)
+
+If 2025 was the year attackers learned to weaponize trust, 2026 will be the year they scale it.
+
+1. Social Engineering Will Surge
+As AI-powered defenses grow smarter, attackers will double down on manipulating humans — using voice clones, deepfakes, and adaptive communication to bypass trust.
+
+2. Extortion Will Mature
+Ransomware will evolve into organized pressure campaigns that combine encryption, data leaks, and regulatory coercion. Attackers will go after credibility, not just access.
+
+3. Human Oversight Will Define AI Governance
+Incidents such as Replit’s system failure and Deloitte’s 2025 controversy with the Australian government — involving AI-generated materials in official work — have shown why human accountability must be at the center of AI adoption.
+
+The Takeaway
+
+2025 taught us that cyber risk is now systemic and human-centric. The next frontier isn’t just about defending networks — it’s about governing trust.
+Organizations that build transparency, accountability, and oversight into every relationship — internal and external, human or machine — will be the ones best prepared for 2026.
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+The Scariest Breaches of 2025: Four Cyber Trends Every Leader Should Watch
+
+2025 wasn’t defined by new types of malware.
+It was defined by new ways of exploiting trust.
+
+From deepfakes to vendor failures, the year’s biggest breaches revealed how attackers are shifting toward people, partners, and shared infrastructure.
+
+Here are the four trends that stood out — and what they mean for 2026.
+
+1. AI Takes Social Engineering to the Next Level
+
+AI can now mimic real people — voices, faces, writing styles — with unsettling accuracy.
+
+At Arup, a convincing AI deepfake of a senior leader prompted employees to transfer funds.
+
+At Replit, an autonomous AI code agent accidentally deleted live production repositories.
+
+The takeaway:
+Traditional identity cues like voice, video, and “business as usual” workflows can no longer be trusted. Organizations must strengthen verification, authorization, and AI oversight.
+
+2. Ransomware… Yes, It’s Still a Threat
+
+Ransomware is evolving faster than defenses.
+
+Coinbase faced insider bribery used for extortion.
+Marks & Spencer lost hundreds of millions in online sales after a vendor compromise.
+
+The real shift:
+It’s no longer about encryption. It’s about leverage — public exposure, reputation damage, and operational pressure.
+
+3. Third-Party Vendor Trust Is Becoming Riskier
+
+Your vendor ecosystem is now your largest attack surface.
+
+The TeleMessage breach exposed sensitive archives from government and financial clients through a misconfigured backend system.
+
+The reality:
+A vendor’s security controls are effectively your own.
+Oversight, encryption, and contractual accountability must extend deep into the supply chain.
+
+4. Our Interdependencies Amplify Cyber Attacks
+
+The ToolShell SharePoint campaign compromised 400+ organizations — including U.S. national agencies — through a single platform flaw.
+
+This was not a “company breach.”
+It was a network effect.
+
+Lesson for leaders:
+Cyber resilience isn’t only about your systems. It’s about the platforms, partners, and infrastructure you depend on.
+
+Looking Ahead: Predictions for 2026
+
+If 2025 was the year attackers weaponized trust, 2026 will be the year they scale it.
+
+1. Social engineering will surge
+
+AI will supercharge impersonation, real-time voice manipulation, and adaptive phishing.
+
+2. Extortion will mature
+
+Think less encryption, more exposure and reputational pressure.
+
+3. Human oversight will be the center of AI governance
+
+Incidents like Replit — and the 2025 Deloitte/Australia controversy — show why human accountability must anchor AI adoption.
+
+The Bottom Line
+
+2025 made one thing clear:
+Cybersecurity is now a governance discipline — not just a technical function.
+
+Organizations that embed transparency, accountability, and oversight across people, partners, and platforms will be the ones most prepared for 2026.
