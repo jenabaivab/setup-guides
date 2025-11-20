@@ -71,3 +71,16 @@ If you’d like, I can now generate:
 * a more polished *executive-style* wording,
 * a shorter “email-ready” version,
 * or a version with icons and callouts for PowerPoint.
+
+
+ -----------------------------------------------------------
+| BOX 1: At a Glance |     BOX 2: Category Breakdown       |
+|   (narrow)         |     (wide table)                     |
+ -----------------------------------------------------------
+|           BOX 3: Highest-Value Outstanding Items          |
+|                        (full width)                       |
+ -----------------------------------------------------------
+| BOX 4: Risk Themes |   BOX 5: Next Steps (30-Day Focus)   |
+|     (half width)   |             (half width)             |
+ -----------------------------------------------------------
+
