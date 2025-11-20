@@ -1,164 +1,99 @@
-Here is the **cleanest layout** (with exact box placement) that fits *your non-redundant content* in a **single A4/PPT slide** without feeling crowded.
+You're absolutely right — even with short bullets, **Box 4 (Risk Themes)** and **Box 5 (Next Steps)** are still *too tightly linked in meaning*, because both are ultimately about impersonation, identity, and data.
 
-This layout is designed for **security one-pagers**, where you need clarity, hierarchy, and strong visual structure.
+To eliminate this overlap, we need to **change the function** of Box 4 and Box 5 so they:
 
----
+* talk about *different layers* of the problem,
+* use *non-overlapping language*,
+* serve *different decision-making purposes*,
+* still stay relevant to the dataset.
 
-# ⭐ **FINAL ONE-PAGER LAYOUT (WITH BOXES)**
-
-*(Designed specifically for the content we finalized — everything fits cleanly.)*
-
----
-
-# 🔲 **BOX 1 — Top Left (Small Box — 20% width)**
-
-### **AT A GLANCE**
-
-(4–5 lines only)
-
-* Outstanding actions: **56**
-* Categories: Apps (43), Identity (8), Data (5)
-* Regressions: **1**
-* License blockers: **1**
-
-**Dimensions:**
-Narrow vertical box; top-left; takes ~20–25% of width.
-Keeps the page balanced.
+Below is the **corrected final structure**, with **zero conceptual duplication**.
 
 ---
 
-# 🔲 **BOX 2 — Top Right (Large Box — 75% width)**
+# ⭐ **FINAL NON-REDUNDANT VERSION — Boxes 4 & 5 Fully Differentiated**
 
-### **CATEGORY DISTRIBUTION**
+## 📌 How this version avoids redundancy:
 
-(3-row table only)
-
-| Category     | Count | Typical Controls      | Notes          |
-| ------------ | ----- | --------------------- | -------------- |
-| **Apps**     | 43    | Email & collaboration | Largest volume |
-| **Identity** | 8     | MFA, risk policies    | High-impact    |
-| **Data**     | 5     | DLP, labeling         | Least gaps     |
-
-**Dimensions:**
-Runs across the top-right, roughly 75% width, shallow height.
-Balances the “At a Glance” box and keeps the top section lightweight.
+* **Box 4 = “Why this matters”** (risk implications, impact themes)
+* **Box 5 = “What we’ll do about it”** (operational next steps)
+* No shared phrasing, no shared categories
+* Fits cleanly in half-width boxes
 
 ---
 
-# 🔲 **BOX 3 — Middle Row (Full Width, Medium Height)**
-
-### **HIGHEST-VALUE OUTSTANDING ITEMS**
-
-(Grouped to avoid redundancy)
-
-1. **Impersonation protection suite** (8-point items)
-2. **Identity Protection policies** (7-point items; one regressed)
-3. **Phishing-resistant MFA for admins**
-4. **Impersonation quarantine policies** (6-point items)
-5. **On-prem AD password protection** (6 points)
-
-**Dimensions:**
-Full-width box
-Sits directly under Box 1 & 2.
-Keep this *medium* height — 5 bullet lines maximum.
+# **SECURE SCORE – OUTSTANDING ACTION SUMMARY (Final Clean Version)**
 
 ---
 
-# 🔲 **BOX 4 — Bottom Left (Half width)**
+## 🔲 **BOX 1 — AT A GLANCE**
 
-### **THEMATIC WEAKNESSES**
-
-(Interprets the data — stays concise)
-
-**Identity**
-
-* Incomplete MFA
-* Risk policies disabled + regression
-* Weak admin session controls
-
-**Apps**
-
-* Missing impersonation defenses
-* Weak Safe Links / anti-phishing
-* Loose sharing + Teams governance
-
-**Data**
-
-* No DLP
-* No labeling / auto-classification
-
-**Dimensions:**
-Left half of lower section.
-This is a dense but compact block — keep bullets short.
+* **Outstanding actions:** 56
+* **Categories:** Apps (43), Identity (8), Data (5)
+* **Regressions:** 1
+* **License blockers:** 1
 
 ---
 
-# 🔲 **BOX 5 — Bottom Right (Half width)**
+## 🔲 **BOX 2 — CATEGORY BREAKDOWN**
 
-### **30-DAY PRIORITY PLAN**
-
-(Only 2–3 bullets per category)
-
-**Identity (Week 1)**
-
-* Restore risk policy
-* Complete MFA
-* Enforce admin MFA
-
-**Apps (Week 1–3)**
-
-* Deploy impersonation suite
-* Enable Safe Links
-* Restrict forwarding & sharing
-* Harden Teams settings
-
-**Data (Week 3–4)**
-
-* Enable baseline DLP
-* Publish sensitivity labels
-* Begin auto-labeling
-
-**Dimensions:**
-Right half of lower section.
-Matches the height of Box 4 for symmetry.
+| Category         | Count      | Typical Controls           |
+| ---------------- | ---------- | -------------------------- |
+| **Apps (43)**    | Majority   | Email/Teams, anti-phishing |
+| **Identity (8)** | High-value | MFA, risk policies         |
+| **Data (5)**     | Minimal    | DLP, labeling              |
 
 ---
 
-# 📐 **VISUAL LAYOUT MAP (ASCII)**
+## 🔲 **BOX 3 — HIGHEST-VALUE OUTSTANDING ITEMS**
 
-Use this when building your slide:
-
-```
- ------------------------------------------------------------
-| [BOX 1: AT A GLANCE] |            BOX 2: CATEGORY DISTRIBUTION            |
-|     (20-25% width)   |                     (75-80% width)                |
- ------------------------------------------------------------
-|                 BOX 3: HIGHEST-VALUE OUTSTANDING ITEMS                    |
-|                            (Full Width)                                   |
- ------------------------------------------------------------
-|          BOX 4: THEMATIC WEAKNESSES       |       BOX 5: 30-DAY PLAN     |
-|                 (Half width)              |             (Half width)      |
- ------------------------------------------------------------
-```
+1. Impersonation protection suite (8-point items)
+2. Identity Protection risk policies (one regressed)
+3. Phishing-resistant MFA for admins
+4. Impersonation quarantine settings
+5. On-prem AD password protection
 
 ---
 
-# 🎯 **WHY THIS LAYOUT WORKS PERFECTLY**
+# ⭐ **THE KEY FIX — NON-REDUNDANT BOTTOM ROW**
 
-* Top row is “metadata” → visually light
-* Middle box carries the important “what actually matters” content
-* Bottom row splits “analysis” and “action”
-* NO duplication
-* Boxes are balanced and symmetrical
-* It prints cleanly on A4 and looks clean in PPT
-* Allows breathing room, white space, and avoids clutter
+## 🔲 **BOX 4 — RISK IMPLICATIONS** *(What these gaps expose the org to)*
+
+*(No operational language. No category framing.)*
+
+* **Higher success rate for phishing & spoofing**
+* **Weaker detection of compromised accounts**
+* **Uncontrolled sharing increases accidental data leaks**
+
+*(This is the “why this matters” box — purely impact-focused.)*
 
 ---
 
-If you'd like, I can now:
+## 🔲 **BOX 5 — NEXT STEPS (30-DAY FOCUS)**
 
-✅ Create a **PPT-ready version** (formatted text)
-or
-✅ Build this as a **canvas template** you can reuse for all clients.
+*(Purely actions. No reference to risks. No theme repetition.)*
 
-Which one do you want?
+* **Enable impersonation defenses & quarantine flows**
+* **Reinstate identity risk policies + complete MFA**
+* **Activate baseline DLP and publish sensitivity labels**
+
+*(This is the “what we do next” box — purely actionable.)*
+
+---
+
+# 🎯 **Why THIS Works**
+
+* Box 4 is **impact-only**, not describing gaps or fixes
+* Box 5 is **action-only**, not describing risk or context
+* There is **zero category overlap**
+* No repeated words other than necessary ones (e.g., "impersonation")
+* Both fit cleanly into half-width boxes
+* Executive-friendly, crisp, and readable
+
+---
+
+If you want, I can now turn this into:
+
+* a **polished PPT-style version**,
+* a **minimalist design version**, or
+* a version with **visual icons and color cues**.
