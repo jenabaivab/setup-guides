@@ -1,102 +1,164 @@
-Recommended action | Score impact | Points achieved | Status | Regressed | Have license? | Category
+Here is the **cleanest layout** (with exact box placement) that fits *your non-redundant content* in a **single A4/PPT slide** without feeling crowded.
 
-Ensure that intelligence for impersonation protection is enabled — 2.23% | 0/8 | To address | No | Yes | Apps
+This layout is designed for **security one-pagers**, where you need clarity, hierarchy, and strong visual structure.
 
-Move messages that are detected as impersonated users by mailbox intelligence — 2.23% | 0/8 | To address | No | Yes | Apps
+---
 
-Enable impersonated domain protection — 2.23% | 0/8 | To address | No | Yes | Apps
+# ⭐ **FINAL ONE-PAGER LAYOUT (WITH BOXES)**
 
-Set the phishing email level threshold at 2 or higher — 2.23% | 0/8 | To address | No | Yes | Apps
+*(Designed specifically for the content we finalized — everything fits cleanly.)*
 
-Enable impersonated user protection — 2.23% | 0/8 | To address | No | Yes | Apps
+---
 
-Ensure the 'Password expiration policy' is set to 'Set passwords to never expire (recommended)' — 2.23% | 0/8 | To address | No | Yes | Identity
+# 🔲 **BOX 1 — Top Left (Small Box — 20% width)**
 
-Enable Microsoft Entra ID Identity Protection user risk policies — 1.95% | 0/7 | To address | No | Yes | Identity
+### **AT A GLANCE**
 
-Ensure 'Phishing-resistant MFA strength' is required for Administrators — 1.95% | 0/7 | To address | No | Yes | Apps
+(4–5 lines only)
 
-Quarantine messages that are detected from impersonated domains — 1.67% | 0/6 | To address | No | Yes | Apps
+* Outstanding actions: **56**
+* Categories: Apps (43), Identity (8), Data (5)
+* Regressions: **1**
+* License blockers: **1**
 
-Quarantine messages that are detected from impersonated users — 1.67% | 0/6 | To address | No | Yes | Apps
+**Dimensions:**
+Narrow vertical box; top-left; takes ~20–25% of width.
+Keeps the page balanced.
 
-Ensure password protection is enabled for on-prem Active Directory — 1.67% | 0/6 | To address | No | Yes | Apps
+---
 
-Start your Defender for Identity deployment, installing Sensors on Domain Controllers and other eligible servers — 1.39% | 0/5 | To address | No | Yes | Identity
+# 🔲 **BOX 2 — Top Right (Large Box — 75% width)**
 
-Ensure the Common Attachment Types Filter is enabled — 1.39% | 0/5 | To address | No | Yes | Apps
+### **CATEGORY DISTRIBUTION**
 
-Ensure 'External sharing' of calendars is not available — 1.39% | 0/5 | To address | No | Yes | Apps
+(3-row table only)
 
-Ensure DLP policies are enabled — 1.39% | 0/5 | To address | No | Yes | Data
+| Category     | Count | Typical Controls      | Notes          |
+| ------------ | ----- | --------------------- | -------------- |
+| **Apps**     | 43    | Email & collaboration | Largest volume |
+| **Identity** | 8     | MFA, risk policies    | High-impact    |
+| **Data**     | 5     | DLP, labeling         | Least gaps     |
 
-Ensure additional storage providers are restricted in Outlook on the web — 1.39% | 0/5 | To address | No | Yes | Apps
+**Dimensions:**
+Runs across the top-right, roughly 75% width, shallow height.
+Balances the “At a Glance” box and keeps the top section lightweight.
 
-Ensure all forms of mail forwarding are blocked and/or disabled — 1.39% | 0/5 | To address | No | Yes | Apps
+---
 
-Ensure Sign-in frequency is enabled and browser sessions are not persistent for Administrative users — 1.39% | 0/5 | To address | No | Yes | Apps
+# 🔲 **BOX 3 — Middle Row (Full Width, Medium Height)**
 
-Ensure custom banned passwords lists are used — 1.39% | 0/5 | To address | No | Yes | Apps
+### **HIGHEST-VALUE OUTSTANDING ITEMS**
 
-Ensure multifactor authentication is enabled for all users — 2.51% | 5.17/9 | To address | No | Yes | Identity
+(Grouped to avoid redundancy)
 
-Enable Microsoft Entra ID Identity Protection sign-in risk policies — 1.95% | 3.28/7 | To address | Yes | Yes | Identity
+1. **Impersonation protection suite** (8-point items)
+2. **Identity Protection policies** (7-point items; one regressed)
+3. **Phishing-resistant MFA for admins**
+4. **Impersonation quarantine policies** (6-point items)
+5. **On-prem AD password protection** (6 points)
 
-Enable the domain impersonation safety tip — 0.84% | 0/3 | To address | No | Yes | Apps
+**Dimensions:**
+Full-width box
+Sits directly under Box 1 & 2.
+Keep this *medium* height — 5 bullet lines maximum.
 
-Enable the user impersonation safety tip — 0.84% | 0/3 | To address | No | Yes | Apps
+---
 
-Enable the user impersonation unusual characters safety tip — 0.84% | 0/3 | To address | No | Yes | Apps
+# 🔲 **BOX 4 — Bottom Left (Half width)**
 
-Ensure Spam confidence level (SCL) is configured in mail transport rules with specific domains — 0.84% | 0/3 | To address | No | No | Apps
+### **THEMATIC WEAKNESSES**
 
-Ensure mailbox auditing for all users is Enabled — 0.84% | 0/3 | To address | No | Yes | Apps
+(Interprets the data — stays concise)
 
+**Identity**
 
-Ensure Exchange Online Spam Policies are set to notify administrators — 0.84% | 0/3 | To address | No | Yes | Apps
+* Incomplete MFA
+* Risk policies disabled + regression
+* Weak admin session controls
 
-Ensure Safe Links for Office Applications is Enabled — 0.84% | 0/3 | To address | No | Yes | Apps
+**Apps**
 
-Ensure that an anti-phishing policy has been created — 0.84% | 0/3 | To address | No | Yes | Apps
+* Missing impersonation defenses
+* Weak Safe Links / anti-phishing
+* Loose sharing + Teams governance
 
-Block OneDrive for Business sync from unmanaged devices — 0.84% | 0/3 | To address | No | Yes | Apps
+**Data**
 
-Ensure SharePoint external sharing is managed through domain whitelist/blacklists — 0.84% | 0/3 | To address | No | Yes | Apps
+* No DLP
+* No labeling / auto-classification
 
-Ensure that SharePoint guest users cannot share items they don't own — 0.84% | 0/3 | To address | No | Yes | Apps
+**Dimensions:**
+Left half of lower section.
+This is a dense but compact block — keep bullets short.
 
-Ensure 'User owned apps and services' is restricted — 0.84% | 0/3 | To address | No | Yes | Apps
+---
 
-Ensure DLP policies are enabled for Microsoft Teams — 0.84% | 0/3 | To address | No | Yes | Apps
+# 🔲 **BOX 5 — Bottom Right (Half width)**
 
-Ensure 'Microsoft Azure Management' is limited to administrative roles — 0.84% | 0/3 | To address | No | Yes | Apps
+### **30-DAY PRIORITY PLAN**
 
-Ensure Administrative accounts are separate and cloud-only — 0.84% | 0/3 | To address | No | Yes | Apps
+(Only 2–3 bullets per category)
 
-Only invited users should be automatically admitted to Teams meetings — 0.56% | 0/2 | To address | No | Yes | Apps
+**Identity (Week 1)**
 
-Configure which users are allowed to present in Teams meetings — 0.56% | 0/2 | To address | No | Yes | Apps
+* Restore risk policy
+* Complete MFA
+* Enforce admin MFA
 
-Publish M365 sensitivity label data classification policies — 0.56% | 0/2 | To address | No | Yes | Data
+**Apps (Week 1–3)**
 
-Ensure that no sender domains are allowed for anti-spam policies — 0.56% | 0/2 | To address | No | Yes | Apps
+* Deploy impersonation suite
+* Enable Safe Links
+* Restrict forwarding & sharing
+* Harden Teams settings
 
-Deploy a log collector to discover shadow IT activity — 0.28% | 0/1 | To address | No | Yes | Apps
+**Data (Week 3–4)**
 
-Ensure the customer lockbox feature is enabled — 0.28% | 0/1 | To address | No | Yes | Apps
+* Enable baseline DLP
+* Publish sensitivity labels
+* Begin auto-labeling
 
-Restrict anonymous users from joining meetings — 0.28% | 0/1 | To address | No | Yes | Apps
+**Dimensions:**
+Right half of lower section.
+Matches the height of Box 4 for symmetry.
 
-Restrict dial-in users from bypassing a meeting lobby — 0.28% | 0/1 | To address | No | Yes | Apps
+---
 
-Don't add allowed IP addresses in the connection filter policy — 0.28% | 0/1 | To address | No | Yes | Apps
+# 📐 **VISUAL LAYOUT MAP (ASCII)**
 
-Extend M365 sensitivity labeling to assets in Microsoft Purview data map — 0.28% | 0/1 | To address | No | Yes | Data
+Use this when building your slide:
 
-Ensure that Auto-labeling data classification policies are set up and used — 0.28% | 0/1 | To address | No | Yes | Data
+```
+ ------------------------------------------------------------
+| [BOX 1: AT A GLANCE] |            BOX 2: CATEGORY DISTRIBUTION            |
+|     (20-25% width)   |                     (75-80% width)                |
+ ------------------------------------------------------------
+|                 BOX 3: HIGHEST-VALUE OUTSTANDING ITEMS                    |
+|                            (Full Width)                                   |
+ ------------------------------------------------------------
+|          BOX 4: THEMATIC WEAKNESSES       |       BOX 5: 30-DAY PLAN     |
+|                 (Half width)              |             (Half width)      |
+ ------------------------------------------------------------
+```
 
-Set automatic email forwarding rules to be system controlled — 0.28% | 0/1 | To address | No | Yes | Apps
+---
 
-Block users who reached the message limit — 0.28% | 0/1 | To address | No | Yes | Apps
+# 🎯 **WHY THIS LAYOUT WORKS PERFECTLY**
 
-Ensure modern authentication for SharePoint applications is required — 0.28% | 0/1 | To address | No | Yes | Apps
+* Top row is “metadata” → visually light
+* Middle box carries the important “what actually matters” content
+* Bottom row splits “analysis” and “action”
+* NO duplication
+* Boxes are balanced and symmetrical
+* It prints cleanly on A4 and looks clean in PPT
+* Allows breathing room, white space, and avoids clutter
+
+---
+
+If you'd like, I can now:
+
+✅ Create a **PPT-ready version** (formatted text)
+or
+✅ Build this as a **canvas template** you can reuse for all clients.
+
+Which one do you want?
