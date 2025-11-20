@@ -97,3 +97,15 @@ If you want, I can now turn this into:
 * a **polished PPT-style version**,
 * a **minimalist design version**, or
 * a version with **visual icons and color cues**.
+
+ -----------------------------------------------------------
+| BOX 1: At a Glance |     BOX 2: Category Breakdown       |
+|   (narrow)         |     (wide table)                     |
+ -----------------------------------------------------------
+|           BOX 3: Highest-Value Outstanding Items          |
+|                        (full width)                       |
+ -----------------------------------------------------------
+| BOX 4: Risk Themes |   BOX 5: Next Steps (30-Day Focus)   |
+|     (half width)   |             (half width)             |
+ -----------------------------------------------------------
+
