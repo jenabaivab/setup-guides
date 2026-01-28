@@ -1,142 +1,69 @@
-Got it. Below is a publish-ready blog draft with a clean narrative arc that naturally culminates in Vantage’s usefulness. I have left clear placeholders for your data and avoided hype language. Tone is sponsor-centric, analytical, and credible.
+SonicWall Cloud Backup Breached: Firewall Configurations Compromised
 
+SonicWall has disclosed a data breach impacting its MySonicWall cloud backup service, exposing firewall configuration backups for all customers using the feature. The company confirmed the incident following an investigation with Mandiant and has published an official advisory urging immediate credential resets and configuration reviews.
 
----
+While encrypted, the leaked backups contain sensitive details, including network topology, access rules, and service credentials, that could give threat actors valuable intelligence about affected environments. This incident highlights the potential downstream risk of third-party configuration storage and underscores the need for rapid remediation across all SonicWall-managed networks.
 
-Third-Party Risk Has Become the Defining Cybersecurity Challenge for Portfolio Companies
+Breach Details
+The breach occurred after unauthorized access to SonicWall’s cloud backup environment, which stored configuration export files (EXP files) for customer firewalls. These files include device settings, VPN definitions, and encrypted credentials. SonicWall has since confirmed that 100% of cloud backup users were affected.
+Newer devices (Gen 7+) encrypt backups with stronger encryption standards, while older devices (Gen 6 and earlier) use weaker encryption algorithms, which could be easier to crack. There’s no proof that the data has been abused yet, but the leaked configurations give attackers a clear map of defenses that could enable targeted breaches.
 
-Third-party risk management, or TPRM, has quietly evolved into one of the most significant cybersecurity threats facing portfolio companies today.
+Our Guidance
+To protect your environment and limit potential impact, ACA recommends the following steps:
+•	Check for Impacted Devices via MySonicWall: Log into MySonicWall and navigate to 'Product Management → Issue List'. If any pending actions are shown, follow the Essential Credential Reset steps, prioritizing active, internet-facing firewalls.
 
-As organizations digitize operations, outsource critical functions, and rely on an expanding ecosystem of vendors, the traditional perimeter has effectively disappeared. Sensitive data, core business processes, and operational resilience increasingly depend on third parties that sit outside a company’s direct control.
+•	Comprehensive Credential and Key Reset: Execute a full credential reset across all affected systems. This includes:
 
-For portfolio companies, this shift creates a difficult reality. While cyber risk is growing more interconnected and external, oversight mechanisms often remain internal, fragmented, and reactive. The result is a widening gap between exposure and visibility.
+o	Updating passwords for all local users, including administrators.
+o	Resetting temporary access codes (TOTP) for local users, requiring a re-bind of authenticator apps.
+o	Changing passwords on all LDAP, RADIUS, or TACACS+ servers connected to the devices.
+o	Updating the shared secret in all IPSec site-to-site and GroupVPN policies.
+o	Changing the passwords for any L2TP/PPPoE/PPTP WAN interfaces.
+o	Resetting the Cloud Secure Edge (CSE) API key and any other API keys.
 
-This gap is now one of the most consistent sources of cyber risk across investment portfolios.
+•	Rebuild or Sanitize Configurations: Do not re-use existing configurations. Instead, rebuild or sanitize them thoroughly before re-applying to production devices to remove any malicious code or non-standard settings.
 
+•	Restrict Remote Management and Enforce MFA: Limit remote management access (HTTP/S, SSH) from the WAN and enforce multi-factor authentication (MFA) for all administrative interfaces.
 
----
+•	Monitor Firewall and VPN Logs: Actively monitor all firewall and VPN logs for unauthorized access attempts or suspicious configuration changes to detect and respond to any lingering threats.
 
-Why third-party risk is uniquely challenging for portfolio companies
+•	Follow Official Guidance: Continue to adhere to SonicWall’s official incident advisory for ongoing updates and guidance throughout the remediation process.
 
-Unlike large enterprises with mature security programs, portfolio companies often operate under structural constraints that make third-party risk particularly difficult to manage.
+here is the second example
 
-Most portfolio companies have lean security and IT teams. Vendor onboarding is driven by business urgency rather than security rigor. Procurement, legal, and IT may operate in silos, with no single function owning ongoing vendor risk. Once a vendor is approved, reassessment is rare unless something goes wrong.
+Microsoft SharePoint Vulnerability Under Active Exploitation – Urgent Patching Required
 
-At the same time, portfolio companies are typically moving fast. Growth initiatives, cloud migrations, M&A activity, and digital transformation all increase reliance on external providers. Each new vendor expands the attack surface, often without a proportional increase in governance.
+Microsoft has released emergency security updates to address two serious vulnerabilities in its on-premises SharePoint Server platform, one of which is already under active exploitation. Not only do these vulnerabilities conceal attacker activities, they also bypass existing security controls. This can lead to full control of the system, data theft, or further compromise of connected systems.
 
-From a sponsor’s perspective, this creates an uncomfortable dynamic. Third-party risk accumulates across the portfolio, but visibility remains largely company-by-company, informal, and difficult to aggregate.
+Organizations using affected SharePoint versions are strongly advised to apply the relevant patches as soon as possible. 
+Microsoft has confirmed that attackers are actively using these flaws to breach systems. Reports indicate that more than 75 organizations across government, education, energy, and telecom sectors have already been affected. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued a public alert in response to ongoing exploitation.
 
+Vulnerability Details
+Microsoft has identified two vulnerabilities impacting SharePoint Server:
+•	CVE-2025-53770 (CVSS Score: 9.8/10) is a critical flaw that could allow attackers to run unauthorized code on a vulnerable server. 
 
----
+•	CVE-2025-53771 (CVSS Score: 6.3/10) is a related vulnerability that helps attackers conceal their activity and bypass security controls.
 
-AI is accelerating third-party risk faster than governance can keep up
+The following versions of SharePoint Server are impacted by these vulnerabilities:
+•	SharePoint Server 2016
+•	SharePoint Server 2019
+•	SharePoint Server Subscription Edition
+These vulnerabilities do not affect SharePoint Online (Microsoft 365).
+Security updates are now available for Sharepoint Server 2019 and SharePoint Server Subscription Edition. Patches for SharePoint Server 2016 are still pending and will be released shortly. Organizations with internet-facing SharePoint servers that have not been patched are at especially high risk.
 
-The rapid adoption of AI-enabled tools is materially changing the third-party risk landscape.
+Our Guidance
+To protect your environment and limit potential impact, ACA recommends the following steps:
+•	Apply Microsoft’s July 2025 security updates as soon as possible:
 
-Portfolio companies are increasingly relying on AI vendors for customer support, data analytics, marketing, software development, and internal productivity. These tools are often onboarded quickly, sometimes outside traditional procurement processes, and with limited security scrutiny relative to the risk they introduce.
+o	For SharePoint Server 2019, apply KB5002754.
+o	For SharePoint Server Subscription Edition, apply KB5002768.
+o	For SharePoint Server 2016, monitor Microsoft’s Security Portal for the patch release.
 
-AI-driven third-party risk introduces several new challenges:
+•	After patching, Microsoft recommends:
 
-Data flows are often opaque, making it difficult to understand how sensitive information is processed, stored, or reused
+o	Rotating ASP.NET machine keys (used to protect authentication and session data).
+o	Turning on AMSI (Antimalware Scan Interface) to help detect malicious code within SharePoint.
+o	Using endpoint protection tools (like Microsoft Defender for Endpoint) to monitor suspicious activity.
+o	Reviewing and updating the organization’s patch management policies to ensure timely application of future patches
 
-Vendor risk profiles can change rapidly as models evolve, features expand, or data sources shift
-
-Accountability is frequently unclear, particularly when vendors rely on downstream AI platforms or model providers
-
-Regulatory expectations around AI governance and data protection continue to evolve, increasing compliance uncertainty
-
-
-In practice, this means third-party risk is not just increasing in volume, but also in complexity and speed. Static assessments conducted at onboarding are no longer sufficient.
-
-
----
-
-What we see across portfolios using Vantage for Cyber
-
-(Data placeholders)
-
-Based on findings from ACA’s Vantage for Cyber service, third-party risk exposure is both widespread and systemic across portfolio companies.
-
-Our data shows that:
-
-[X%] of portfolio companies exhibit elevated exposure to third-party cyber risk
-
-The average real-risk score related to vendor and supplier security is [X], indicating persistent control gaps rather than isolated issues
-
-[X%] of high-risk findings are directly tied to insufficient third-party oversight, monitoring, or contractual safeguards
-
-
-These findings are not confined to a specific industry or company size. Similar risk patterns emerge across portfolios, suggesting that TPRM is a portfolio-level governance challenge, not simply an operational issue at individual companies.
-
-
----
-
-Why third-party cyber risk matters at the sponsor level
-
-For sponsors, third-party risk has implications that extend well beyond individual incidents.
-
-A single vendor compromise can impact multiple portfolio companies simultaneously. Regulatory scrutiny increasingly focuses on governance, oversight, and accountability, not just technical controls. During diligence and exit processes, buyers are asking more detailed questions about vendor risk management maturity and evidence of ongoing oversight.
-
-Without centralized visibility, sponsors are left reacting to third-party incidents after the fact, often with limited context on whether the issue is isolated or indicative of a broader portfolio trend.
-
-Effective oversight requires the ability to answer fundamental questions:
-
-Where are our most material third-party cyber risks across the portfolio
-
-Are the same weaknesses recurring across multiple companies
-
-Which risks are being actively managed, and which are stagnating
-
-How does third-party risk evolve over time as companies grow and adopt new technologies
-
-
-Answering these questions at scale is difficult without a structured, portfolio-level approach.
-
-
----
-
-Moving from reactive TPRM to portfolio-level oversight
-
-Traditional third-party risk management is typically designed for single organizations. It does not translate well to the portfolio context, where sponsors need consistency, comparability, and visibility across diverse companies.
-
-Portfolio-level cyber oversight changes the equation by standardizing how third-party risk is assessed, tracked, and reported across the portfolio. Instead of relying on anecdotal updates or inconsistent reporting, sponsors gain a consolidated view of exposure and progress.
-
-Vantage for Cyber is designed to support this shift. By aggregating cybersecurity findings across portfolio companies, identifying systemic risk patterns, and tracking remediation over time, Vantage enables sponsors to engage with third-party risk as a governance issue rather than a series of isolated problems.
-
-This approach allows sponsors to:
-
-Identify recurring third-party risk themes across the portfolio
-
-Prioritize remediation efforts based on real, observable risk
-
-Support portfolio companies without imposing one-size-fits-all controls
-
-Demonstrate mature oversight to regulators, investors, and prospective buyers
-
-
-
----
-
-Third-party risk is not going away
-
-As portfolio companies continue to rely on external vendors and AI-enabled services, third-party cyber risk will only increase. The question is not whether these risks exist, but whether they are visible, understood, and actively managed at the portfolio level.
-
-For sponsors, effective third-party risk oversight is becoming a differentiator. Those who can identify systemic risk early and track remediation consistently will be better positioned to protect value, support growth, and withstand regulatory and diligence scrutiny.
-
-Third-party risk is no longer just a cybersecurity issue. It is a portfolio governance issue.
-
-
----
-
-If you want, next we can:
-
-Tighten this to 900 words for SEO performance
-
-Make a data-heavy version once your metrics land
-
-Adapt this into a LinkedIn long-form post for sponsor audiences
-
-Or add a short “What sponsors should do next” CTA section
-
-
-Tell me the next move.
+•	If patching cannot be done right away, temporarily disconnect vulnerable SharePoint servers from the internet to prevent external attacks. Also, ask your IT or security teams to review logs for unusual access behavior which may indicate an attack has occurred.  
