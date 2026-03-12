@@ -1,86 +1,33 @@
-Here is the **final one-page report**, written exactly in the revised layout and fully based on the Excel data you shared.
-Formatted as clean text so you can paste directly into a slide or document.
+Cyber Risk and Compliance: Building Resilience Through AI, Data Governance, and Cross-Team Collaboration
 
----
+Cybersecurity is no longer just an IT issue—it’s a top-tier compliance risk. As threats evolve and regulatory expectations tighten, CCOs must play a central role in shaping their firm’s cybersecurity and data governance strategy. This session explores how compliance leaders are partnering with cyber, privacy, and IT teams to build resilient programs that address breach response, privacy laws, and governance frameworks. We’ll also examine how artificial intelligence is transforming both the threat landscape and the tools available to defend against it—highlighting how AI can enhance threat detection, automate governance processes, and support cross-functional collaboration in a rapidly changing regulatory environment.
 
-# **SECURE SCORE – OUTSTANDING ACTION SUMMARY**
+Segment Tag: All
 
----
+BU Tags (BU): Regulatory Compliance, Cybersecurity
 
-## 🔲 **BOX 1 — AT A GLANCE**
+Lead BU Cyber: Aaron Pinnick
 
-* **Outstanding actions:** 56
-* **Categories:** Apps (43), Identity (8), Data (5)
-* **Regressions:** 1
-* **License blockers:** 1
+-------------X---------------
 
----
+Beyond Vendor Due Diligence: Meeting the Evolving Regulatory Expectations for Third-Party Risk Management
 
-## 🔲 **BOX 2 — CATEGORY BREAKDOWN**
+Third parties power your business, but they also open the door to cyber and compliance challenges. From cyberattacks that can disrupt your firm’s operations, to vendors integrating generative AI and new technologies into their workflow, the risks that third parties present are growing. Join this expert panel to learn how leading firms are improving vendor risk management throughout the lifecycle of their vendor relationships and staying compliant with regulations like Regulation S-P and DORA.
 
-| Category         | Count                           | Typical Controls                                                              |
-| ---------------- | ------------------------------- | ----------------------------------------------------------------------------- |
-| **Apps (43)**    | Majority of outstanding actions | Email security, anti-phishing, sharing controls, Safe Links, Teams governance |
-| **Identity (8)** | Fewer items, higher impact      | MFA, identity risk policies, admin session controls                           |
-| **Data (5)**     | Smallest set                    | DLP, sensitivity labels, auto-labeling                                        |
+Segment Tag: All
 
----
+BU Tags (BU): Cybersecurity, Regulatory Compliance
 
-## 🔲 **BOX 3 — HIGHEST-VALUE OUTSTANDING ITEMS**
+Lead BU Cyber: Aaron Pinnick
 
-1. **Impersonation protection suite**
-   *(Multiple 8-point actions: intelligence, domain/user protection, threshold configuration)*
+-------------X---------------
 
-2. **Identity Protection risk policies**
-   *(7-point items, including a regressed sign-in risk policy)*
+Beyond the Deal: Strengthening Portfolio Oversight in ESG and Cybersecurity
 
-3. **Phishing-resistant MFA for administrators**
-   *(7-point security requirement not yet implemented)*
+As regulatory expectations and stakeholder demands intensify, CCO in private equity face growing pressure to ensure robust oversight across portfolio companies—especially in the critical areas of ESG and cybersecurity. This session explores practical strategies for implementing scalable oversight frameworks, aligning with regulatory priorities, and mitigating reputational and operational risks. Join industry experts and peers for a deep dive into how CCOs can lead the charge in embedding ESG and cyber resilience into the DNA of their portfolios—without compromising deal velocity or value creation.
 
-4. **Impersonation quarantine policies**
-   *(6-point actions for domain and user impersonation quarantines)*
+Segment Tag: Private Equity
 
-5. **On-prem Active Directory password protection**
-   *(6-point hardening control currently unaddressed)*
+BU Tags (BU): Cybersecurity, ESG
 
----
-
-## 🔲 **BOX 4 — RISK THEMES**
-
-* **Impersonation Exposure:**
-  Missing intelligence-based detection, impersonation protection, threshold hardening, and quarantine actions leave users vulnerable to spoofing and targeted phishing.
-
-* **Identity Assurance Gaps:**
-  Disabled risk policies (including one regression), incomplete MFA deployment, and lack of phishing-resistant admin authentication weaken identity boundaries.
-
-* **Collaboration/Data Drift:**
-  Weak email hygiene (Safe Links, forwarding), permissive sharing configurations, ungoverned Teams settings, and the absence of DLP and labeling controls reduce data governance maturity.
-
----
-
-## 🔲 **BOX 5 — NEXT STEPS (30-DAY FOCUS)**
-
-* **Deploy impersonation and email protection controls** to strengthen anti-phishing coverage across Exchange and Teams.
-* **Restore and enforce identity risk protections**, complete MFA rollout, and require strong authentication for admin roles.
-* **Establish data protection baselines** by enabling DLP, publishing sensitivity labels, and configuring initial auto-labeling policies.
-
----
-
-If you’d like, I can now generate:
-
-* a more polished *executive-style* wording,
-* a shorter “email-ready” version,
-* or a version with icons and callouts for PowerPoint.
-
-
- -----------------------------------------------------------
-| BOX 1: At a Glance |     BOX 2: Category Breakdown       |
-|   (narrow)         |     (wide table)                     |
- -----------------------------------------------------------
-|           BOX 3: Highest-Value Outstanding Items          |
-|                        (full width)                       |
- -----------------------------------------------------------
-| BOX 4: Risk Themes |   BOX 5: Next Steps (30-Day Focus)   |
-|     (half width)   |             (half width)             |
- -----------------------------------------------------------
-
+Co-Lead BU ESG: Julian Seelan/Aaron Pinnick
