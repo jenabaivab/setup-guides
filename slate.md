@@ -1,104 +1,110 @@
-Cyber threats are evolving quickly in the form of AI driven malware to cheap ransomware kits, making strong security testing essential. Penetration testing helps you understand how real attackers could target your systems, but not all testing is equal. Low cost, automated services often miss serious issues, creating a false sense of security.
+# How to Choose the Right Penetration Testing Vendor
 
-This guide highlights what to look for in a penetration testing provider, the risks of relying on automated-only options, and how ACA’s expert driven approach delivers a deeper, more reliable assessment.
+If you're evaluating whether penetration testing belongs in your security program — or you've already decided it does and are now figuring out who to trust with it — the vendor decision is where most organizations get it wrong. The market is crowded: vendors range from large firms running largely automated scans to boutique specialists conducting deep, hands-on assessments, and the difference in what you actually get can be significant.
 
-Why Penetration Testing Matters
+What looks like a completed checkbox on your security roadmap can quickly become a false sense of security if the testing wasn't rigorous enough to begin with.
 
-Effective penetration testing provides a realistic view of how an attacker could compromise your systems. 
-simulating real world intrusion techniques, it enables you to:
+This document outlines what separates a high-quality penetration testing provider from the rest, and what to look for when making that decision.
 
-Inexperienced testers performing risky actions, potentially impacting operations:
-»	Spot vulnerabilities your team may have missed 
-»	See how an attacker could move through your environment 
-»	Prioritize fixes based on real risk 
-»	Reduce the chances of outages, data loss, or regulatory issues
-»	Strengthen both prevention and detection controls  
+---
 
-Regular, proactive testing helps you close security gaps before someone else finds and exploits them, protecting your operations, data, and reputation.
+## The Risk of Getting It Wrong
 
-The Risks of Low Cost Penetration Testing
+Not all penetration tests are created equal, and a weak one can be worse than none at all. It creates a false sense of security — giving stakeholders confidence in a result that didn't actually challenge your environment.
 
-Low cost penetration tests often lack the expertise and depth needed to uncover meaningful security issues. To keep prices low, providers may limit scope, reduce manual effort, or rely on inexperienced testers leading to critical gaps.
+Low-cost providers typically cut corners in a few predictable ways: limited scope, minimal manual effort, and over-reliance on automated tooling. More recently, a growing number of vendors have begun offering AI-driven assessments as a substitute for real testing. These tools can surface known, surface-level vulnerabilities, but they cannot reason through multi-step attack paths, adapt to your specific environment, or exercise the kind of judgment that skilled human testers bring. Real attackers don't run scripts and stop — your testing shouldn't either.
 
-Common issues with low cost testing:
-»	Missed known vulnerabilities due to shallow or outdated testing approaches
-»	No ability to identify multi step attack paths, something real attackers frequently use
-»	Little to no manual validation, leaving real risks undetected
-»	Reports with false positives or minimal context, offering limited value
-»	Inexperienced testers performing risky actions, potentially impacting operations
+Common shortcomings to watch for:
 
-These shortcomings can leave serious weaknesses undiscovered weaknesses that more thorough, expert-led testing would catch.
+- **Shallow coverage** — missing vulnerabilities that fall outside standard tool signatures
+- **No manual validation** — findings that are unconfirmed, leading to false positives and wasted remediation effort
+- **No attack chaining** — treating each vulnerability in isolation rather than showing how they combine into a real compromise path
+- **Undifferentiated reports** — generic output with little context on business impact or prioritization
+- **Execution risk** — inexperienced testers running aggressive techniques without the judgment to do so safely
 
-What High Quality Penetration Testing Looks Like
+---
 
-High quality penetration testing is built on a combination of strong expertise, a structured human led methodology, tailored scoping, and realistic threat simulation. A strong provider should demonstrate the following:
+## What to Look for in a Vendor
 
-Evaluation Area	Details
-Proven Expertise and Certifications
-	Experienced testers should hold recognized offensive security credentials, such as:
-»	OSCP
-»	OSCE / OSWE
-»	CISSP
-»	CEH
-These certifications, supported by real world assessment experience, ensure testers can evaluate networks, applications, and specialized environments with accuracy and depth.
+Evaluating a penetration testing vendor comes down to a few areas that are worth examining closely.
 
-Human Led, Methodical Approach
-	Automation supports early discovery, but impactful findings come from skilled human testers. A mature methodology typically includes:
-»	Planning & Reconnaissance: Defining objectives and gathering intelligence
-»	Scanning & Analysis: Mapping the environment and identifying misconfigurations
-»	Exploitation: Safely validating real attack paths
-»	Maintaining Access: Simulating persistence and lateral movement
-»	Reporting: Delivering clear, prioritized findings with actionable remediation guidance
+### Credentials and Expertise
 
-Tailored Testing Not One Size Fits All
-	A strong provider aligns every engagement with your goals, risk profile, and regulatory requirements. This includes selecting the appropriate assessment for:
-»	External networks
-»	Internal environments
-»	Cloud platforms
-»	Applications
-»	Specialized or high risk systems
-Realistic Threat Simulation
-	Effective penetration testing evaluates real world impact, not just a list of vulnerabilities. A high quality engagement determines:
-»	How far an attacker could advance
-»	Which systems or data could be accessed
-»	How existing controls detect or respond
-»	How similar threats can be prevented or detected in the future
+The testers doing the work matter more than the brand. Look for vendors whose staff hold recognized offensive security credentials — not just general security certifications. Relevant certifications include:
 
+- **OSCP** (Offensive Security Certified Professional)
+- **OSCE / OSWE** (advanced exploit development and web exploitation)
+- **GPEN / GWAPT** (GIAC Penetration Tester / Web Application Penetration Tester)
+- **CEH** (Certified Ethical Hacker)
 
-Selecting the Right Penetration Test for Your Firm
-Identifying the most suitable penetration testing approach begins with aligning the engagement with your organization’s security objectives. Several strategic considerations typically inform this decision:
+Beyond certifications, ask about real-world assessment experience. How many engagements has the team conducted? In what environments — financial services, cloud-native, hybrid infrastructure? Credentials confirm baseline competency; experience is what produces insight.
 
-»	Assessment Focus: Whether the priority is evaluating external exposure, internal threat pathways, or application level security.
-»	Required Level of Rigor: Determining if a high level assessment is sufficient or if a deep, methodical examination is necessary.
-»	Methodology Selection: Balancing automated tooling for broad coverage with human led testing for
-contextual insight and precision.
-»	Regulatory and Industry Obligations: Recognizing that certain sectors require periodic or specialized testing to satisfy compliance frameworks.
+### Human-Led Methodology
 
-With these considerations in mind, ACA offers a comprehensive portfolio of penetration testing services designed to address a wide range of security objectives
+Automation has a legitimate role in penetration testing — particularly in early-stage reconnaissance and scanning. But meaningful findings come from human testers who can contextualize what they're seeing, chain vulnerabilities together, and simulate how an actual adversary would operate.
 
-Our Offerings: 
+A credible vendor will follow a structured methodology that typically covers:
 
-Building on this approach, ACA delivers a full range of penetration testing services tailored to different threat scenarios and operational needs.
+- **Planning and Scoping** — defining objectives, rules of engagement, and threat scenarios relevant to your environment
+- **Reconnaissance** — passive and active intelligence gathering
+- **Scanning and Enumeration** — mapping the attack surface and identifying potential entry points
+- **Exploitation** — safely validating real attack paths, not just flagging theoretical issues
+- **Post-Exploitation** — simulating lateral movement, persistence, and privilege escalation where in scope
+- **Reporting** — delivering findings that are clear, prioritized by risk, and tied to practical remediation steps
 
-  Infrastructure Tests
-»	Foundational Externational Penetration Test (Automated+Manual Review)
-»	External Penetration Test
-»	Internal Penetration Test
-»	Whitebox Penetration Test 
+Ask vendors how much of their process is human-led versus automated. The answer tells you a lot.
 
-  Specialized Tests
-»	Web App Penetration Test
-»	Mobile Penetration Test
-»	Wi-Fi Penetration Test
-»	Cloud Penetration Test 
+### Tailored Scoping, Not Packaged Testing
 
-How ACA Can Help
-ACA’s penetration testing program delivers a disciplined, high assurance assessment approach designed to strengthen your firm’s security posture. It provides:
-•	Certified Expertise: Skilled testers with recognized industry credentials.
-•	Manual Depth: Human led techniques that reveal complex issues automated tools overlook.
-•	Real World Approach: Methodologies aligned with modern attacker behaviors.
-•	Clear Guidance: Practical, prioritized remediation recommendations.
-•	Compliance Support: Alignment with financial and regulatory expectations.
-•	Risk Focused Delivery: Engagements tailored to your firm’s specific environment.
+A vendor worth working with will take time to understand your environment before proposing a test. The right scope depends on your infrastructure, your threat model, your regulatory obligations, and what's actually at risk. Vendors who offer fixed-scope packages without a scoping conversation are optimizing for their process, not your security.
 
-ACA combines technical rigor with operational discipline to deliver safe, effective, and strategically valuable testing.
+### Reporting Quality
+
+The report is ultimately what you pay for. A good penetration test report should be usable by both technical and non-technical stakeholders — with findings that are clearly explained, risk-rated in a way that supports prioritization, and accompanied by actionable remediation guidance. Ask for a sample report before you engage. It will tell you more about a vendor's quality than their sales materials.
+
+### Regulatory and Compliance Alignment
+
+Depending on your industry, penetration testing may be tied to specific regulatory requirements — SEC cybersecurity rules, SOC 2, ISO 27001, DORA, or others. A vendor with experience in your sector will understand how to scope and document an engagement in a way that supports your compliance posture, not just your technical one.
+
+---
+
+## Selecting the Right Test
+
+Once you've identified a vendor you trust, the next step is determining the right type of assessment for your environment and objectives. Key considerations include:
+
+- **Assessment focus** — whether the priority is your external-facing attack surface, internal network exposure, application security, or a combination
+- **Level of rigor required** — whether a high-level review is sufficient for your current maturity, or whether a deep, methodical assessment is warranted
+- **Methodology** — whether you need a black-box engagement (no prior knowledge), gray-box (limited context), or white-box (full access) approach, and what that implies for coverage
+- **Regulatory obligations** — some frameworks specify the type and frequency of testing required, which may constrain or inform the scope
+
+ACA offers a detailed service overview that maps each test type to specific use cases and scope — available separately.
+
+---
+
+## ACA Penetration Testing Services
+
+ACA's penetration testing practice covers the full range of infrastructure and application environments.
+
+**Infrastructure Tests**
+- **Foundational External Penetration Test** — a combined automated and manual review of your external attack surface, designed to deliver meaningful coverage efficiently
+- **External Penetration Test** — in-depth, human-led testing of externally exposed systems and services
+- **Internal Penetration Test** — simulates an insider threat or post-breach scenario, assessing internal network exposure and lateral movement paths
+- **Whitebox Penetration Test** — full-knowledge assessment leveraging architecture documentation and source access for maximum depth
+
+**Specialized Tests**
+- **Web Application Penetration Test** — manual testing of web apps against business logic flaws, injection vulnerabilities, authentication weaknesses, and more
+- **Mobile Penetration Test** — security assessment of iOS and Android applications, including local storage, API communication, and reverse engineering exposure
+- **Wi-Fi Penetration Test** — evaluation of wireless network security, rogue access point exposure, and segmentation controls
+- **Cloud Penetration Test** — assessment of cloud-hosted environments covering misconfigurations, IAM weaknesses, and cloud-native attack paths
+
+---
+
+## Working with ACA
+
+ACA's penetration testing team brings certified expertise, a disciplined human-led methodology, and deep experience in financial services and regulated industries. Engagements are scoped to your environment, executed with operational care, and reported in a format that supports both technical remediation and regulatory documentation.
+
+If you're evaluating providers or ready to scope an engagement, reach out to your ACA relationship manager or contact our cybersecurity team directly.
+
+---
+
+That's the full clean version. Want me to export this as a Word doc, or are there still tweaks to make first?
