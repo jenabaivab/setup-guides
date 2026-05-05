@@ -78,7 +78,7 @@ The response to this environment is not to avoid AI. It is to govern it with the
 **Near Term**
 
 - Benchmark your actual patch cycle against the current exploit window. The 44-day industry average is the relevant standard, not your internal SLA. Build escalation triggers for critical findings where your remediation timeline exceeds that threshold.
-- Update SDLC controls for AI-generated code. Code produced by agents should receive the same security review as any other high-risk input — AI-generated code can appear syntactically clean while containing behavioral vulnerabilities that static analysis does not catch.
+- Updating QC lifecycles for AI content. Ensure AI-generated work product — whether code, analysis, or documentation — is subject to the same review standards as any other high-risk input.
 - Add AI-specific scenarios to incident response exercises. Tabletop simulations should include autonomous destructive action and agent hijacking chains. The forensic profile and containment steps for these incidents differ from conventional malware scenarios.
 
 **Strategically**
