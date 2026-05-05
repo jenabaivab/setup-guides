@@ -91,10 +91,9 @@ The response to this environment is not to avoid AI. It is to govern it with the
 
 ## The Honest Case for Optimism
 
-Copy Fail was found by AI and disclosed responsibly. The kernel patch was available within one week. Project Glasswing is deploying real capability against real infrastructure in the interest of defense. The same tools that compress the exploit window also compress the discovery window — for defenders who have built the controls to use them.
-
-The firms that will fare best in this environment are not those that adopt AI first, and not those that avoid it out of caution. They are the ones that govern it: clear permission boundaries, human oversight on consequential actions, and response mechanisms built for machine speed rather than manual process.
-
+It would be easy to read this paper and conclude that AI is net-negative for cybersecurity. That conclusion is wrong, and acting on it would cause firms to miss the more important strategic reality.
+Copy Fail was found by AI and disclosed responsibly. The kernel patch was available within a week of notification. Project Glasswing is a real initiative deploying real capability against real infrastructure in the interest of defense. The same tools that compress the exploit window also compress the discovery window for defenders who know how to use them.
+The firms that will fare best in this environment are not those that adopt AI first, and not those that avoid it out of caution. They are the ones that govern it — with clear permission boundaries, human oversight on consequential actions, and institutional response mechanisms built for machine speed rather than manual process.
 Mythos is the signal. The speed gap is the risk. Governance is the answer.
 
 ---
