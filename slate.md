@@ -7,7 +7,7 @@
 
 On April 7, 2026, Anthropic announced that its latest frontier model, Claude Mythos Preview, had demonstrated something the industry was not operationally prepared for: the ability to autonomously find and exploit serious software vulnerabilities across every major operating system and browser in use today — not as a purpose-built security tool, but as a byproduct of general improvements in reasoning and coding.
 
-Anthropic chose not to release it publicly. Instead, they launched Project Glasswing, a defensive consortium including AWS, Apple, Cisco, CrowdStrike, Google, JPMorgan Chase, Microsoft, and NVIDIA, backed by $100 million in usage credits, with the explicit goal of deploying Mythos for defense before adversaries develop equivalent capabilities independently.
+Anthropic chose not to release it publicly. Instead, they launched Project Glasswing - a defensive consortium including AWS, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorgan Chase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks, among others, and backed by $100 million in usage credits. The explicit goal of deploying Mythos for defense before adversaries develop equivalent capabilities independently.
 
 That response is itself the signal. When a leading AI lab decides its own model is too dangerous to release and convenes the largest technology companies in the world to contain the risk, the threat environment has structurally changed. For financial firms, the question is no longer whether AI will affect cybersecurity. It is whether your governance, your patch cycles, and your internal controls are built for the speed at which the landscape now moves.
 
