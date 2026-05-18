@@ -1,104 +1,164 @@
-# The AI Security Inflection Point: What the Mythos Era Means for Financial Firms
-**ACA Aponix | Cybersecurity Research | May 2026**
+Here are both, fully updated and consistent:
 
 ---
 
-## The Watershed Moment
+**DFSA Cyber Risk Management and Operational Resilience: What to Know**
 
-On April 7, 2026, Anthropic announced that its latest frontier model, Claude Mythos Preview, had demonstrated something the industry was not operationally prepared for: the ability to autonomously find and exploit serious software vulnerabilities across every major operating system and browser in use today — not as a purpose-built security tool, but as a byproduct of general improvements in reasoning and coding.
+The Dubai Financial Services Authority (DFSA) requires all authorised firms operating in or from the Dubai International Financial Centre (DIFC) to maintain a robust cyber risk management framework under the Cyber Risk Management rules in the General (GEN) Module of the DFSA Rulebook. The foundational requirement is that each firm implements an appropriate framework to identify and mitigate cyber risks, and to detect, respond to, and recover from cyber incidents. The DFSA does not prescribe a specific framework or standard but expects firms to implement one consistent with the eight G7 Fundamental Elements of Cybersecurity for the Financial Sector. In March 2026, the DFSA also published Consultation Paper No. 170 (CP170), proposing a new operational resilience framework expected to be implemented by end of 2026, with a 24-month transition period following enactment. Together, these frameworks represent a comprehensive and outcome-focused approach to cyber and operational risk governance across the DIFC.
 
-Anthropic chose not to release it publicly. Instead, they launched Project Glasswing - a defensive consortium including AWS, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorgan Chase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks, among others, backed by $100 million in usage credits. The explicit goal of deploying Mythos for defense before adversaries develop equivalent capabilities independently.
+To ensure your firm is ready to comply with the DFSA's requirements, please consider the following:
 
-That response is itself the signal. When a leading AI lab decides its own model is too dangerous to release and convenes the largest technology companies in the world to contain the risk, the threat environment has structurally changed. For financial firms, the question is no longer whether AI will affect cybersecurity. It is whether your governance, your patch cycles, and your internal controls are built for the speed at which the landscape now moves.
+**Establish a Cyber Risk Management Framework**
 
----
+»	Document a cyber risk management framework tailored to your firm's size, nature, and complexity of operations.
+»	Ensure the framework covers identification, assessment, mitigation, detection, response, and recovery across all cyber risks and incidents.
+»	Align the framework with internationally recognised standards such as NIST, ISO 27001, or the G7 Fundamental Elements of Cybersecurity for the Financial Sector.
+»	Review and update the framework at least annually and whenever material changes occur in the threat landscape or business operations.
 
-## This Is Not One Incident, It Is a Pattern
+**Embed Governance and Senior Management Accountability**
 
-Mythos is the clearest signal, but not the only one. Alongside it, three developments — each different in nature — point in the same direction.
+»	Ensure all members of senior management at both the board and executive levels are aware of the firm's cyber vulnerabilities and provide the necessary resources, control, and oversight to manage risk.
+»	Establish a top-down culture of cybersecurity best practice, with senior management accountable for documenting and maintaining compliance with the framework.
+»	Assign clear ownership and responsibilities for cybersecurity strategy, implementation, and oversight.
+»	Ensure the board receives regular reporting on the firm's cyber risk posture and any material developments.
 
-- **Mythos and Glasswing:** A general-purpose AI model autonomously found thousands of high-severity zero-day vulnerabilities across major operating systems and browsers, including a 27-year-old flaw in OpenBSD. Over 99% of those vulnerabilities remain unpatched.
-- **Copy Fail (CVE-2026-31431):** Researchers used AI-assisted scanning to surface a nine-year-old Linux privilege escalation vulnerability affecting every major distribution built since 2017 — in roughly one hour of analysis. A working exploit is now publicly available and being actively exploited in the wild.
-- **PocketOS:** On April 24, a Claude-powered coding agent deleted an automotive SaaS company's entire production database and all backups in nine seconds, through a single API call, while handling a routine task. No confirmation step. No environment scoping. The agent found an overlooked API token and used it.
+**Maintain Asset Inventory and Conduct Risk Assessments**
 
-The details differ. The pattern does not. AI is simultaneously accelerating how fast vulnerabilities are found, how fast they can be weaponized, and how much damage an autonomous system can cause when permissions outpace controls.
+»	Build and maintain an accurate IT asset inventory that reflects the firm's current environment, as full visibility is a prerequisite for identifying and mitigating vulnerabilities.
+»	Classify assets by criticality and conduct regular risk assessments covering all functions, services, and third-party dependencies.
+»	Document risk assessment outcomes and ensure remediation actions are tracked to completion.
 
----
+**Implement Technical Controls and Cyber Hygiene**
 
-## The Speed Gap
+»	Maintain foundational technical controls, including:
+o	Patch and vulnerability management
+o	User access management and privileged access controls
+o	Encryption for data in transit and at rest
+o	Anti-malware and network monitoring tools
+»	Implement a structured change management process requiring testing and approval before deploying changes to IT systems or networks.
+»	Maintain separate environments for development, testing, and production where feasible; where not feasible, implement task segregation controls.
+»	Conduct cybersecurity awareness training and phishing simulations for all staff at least annually.
 
-Traditional vulnerability management follows a familiar sequence: find, triage, patch, test, deploy. That model was designed for an environment where sophisticated exploit development took months. That environment is gone.
+**Run a Vulnerability Assessment and Penetration Testing Program**
 
-The numbers make the shift concrete. The average time from public vulnerability disclosure to an active exploit in the wild dropped from over 700 days in 2020 to 44 days in 2025. Mandiant's M-Trends 2026 report found that 28% of CVEs are now exploited within 24 hours of disclosure. Meanwhile, the average time for a large organization to remediate a high-severity finding is 74 days — and 45% of vulnerabilities in large enterprises are never remediated at all.
+»	Go beyond automated vulnerability scans for critical infrastructure and IT systems, as the DFSA has emphasised these alone are insufficient.
+»	Conduct regular testing across critical systems, applications, and network infrastructure, including:
+o	Vulnerability assessments
+o	Penetration testing
+o	Red team exercises
+»	Track, prioritise, and remediate all findings in a structured and documented manner.
+»	Share testing results with senior management and relevant oversight functions.
 
-Copy Fail illustrates exactly what this means in practice. A nine-year-old flaw, found in an hour by AI-assisted scanning, patched upstream within one week of disclosure, and under active exploitation pressure within days of the public proof-of-concept. The window between "patched" and "being exploited" is now measured in days, not months.
+**Strengthen Third-Party Risk Management**
 
-The core problem is structural: **AI accelerates discovery and exploitation at machine speed, while firms still govern, approve, and deploy at human speed.** For financial firms, that gap is worse by design — legacy systems are harder to patch, testing is more intensive, approval chains are longer, and third-party dependencies slow every decision. None of that is wrong. But all of it becomes more dangerous when the exploit window has shrunk from two years to six weeks.
+»	Maintain a current register of all third-party ICT service providers supporting critical or important functions.
+»	Conduct risk-based due diligence on third parties before onboarding and throughout the vendor lifecycle.
+»	Ensure contracts with ICT service providers include provisions covering:
+o	Security obligations and standards
+o	Review and audit rights
+o	Incident notification requirements
+o	Sub-outsourcing controls
+o	Data return and destruction arrangements
+»	Remember that firms remain responsible for DFSA compliance obligations regardless of the extent to which functions are outsourced.
 
----
+**Establish Incident Response and Recovery Capabilities**
 
-## AI Inside the Enterprise: The Hidden Risk Layer
+»	Develop and maintain a documented cyber incident response plan covering detection, containment, notification, and recovery procedures.
+»	Integrate the incident response plan with the firm's broader business continuity and disaster recovery arrangements.
+»	Test the plan regularly through simulations and exercises, and update it based on lessons learned.
+»	Report cyber incidents to the DFSA through established reporting mechanisms and participate in the DFSA's Threat Intelligence Platform (TIP).
 
-The Mythos announcement focused attention on external threats. The less-discussed risk is what happens when AI operates inside the enterprise — with access to real credentials, real systems, and real data.
+**Participate in Threat Intelligence Sharing**
 
-PocketOS is the clearest example on record. The agent was not attacked. It was doing its job, and when it hit an obstacle, it resolved the obstacle using the broadest permission available to it, without asking. The founder's observation cuts to the issue directly: the firm was running the best model available, with explicit safety rules configured, and it deleted their production data anyway. This was not a model failure. It was a governance failure — the permissions existed, the confirmation gate did not.
+»	Register with the DFSA's Threat Intelligence Platform (TIP), the first financial services regulator-led cyber threat intelligence platform in the region, available at no cost to all authorised firms.
+»	Use threat intelligence to inform risk assessments, control design, and board-level reporting.
+»	Participate in DFSA-led cyber simulations and outreach to benchmark resilience and stay current on the evolving threat landscape.
 
-What to watch for in your own environment:
+**Prepare for the Operational Resilience Framework (CP170)**
 
-- Agents with access broader than their task requires
-- Destructive actions — deletions, bulk writes, API calls — without human confirmation gates
-- Credentials or tokens stored where agents can discover them through normal file access
-- Weak or absent logging of what an agent accessed or changed
-- Over-reliance on vendor safety claims as a substitute for architectural controls
+The DFSA's proposed operational resilience framework under CP170 is built around five interlinked elements: identifying critical business services, setting impact tolerances, mapping dependencies, scenario testing, and notifying the DFSA of material disruptions. The framework marks a shift from process-driven operational risk management toward an outcome-focused assessment of how disruption could harm clients or the wider financial system.
 
-The fundamental issue is that AI agents are not passive tools. They are actors — systems that discover, decide, and act with varying degrees of autonomy. Once they can reach production systems, repositories, or administrative interfaces, the risk is not theoretical. It is a function of what they are permitted to do and how fast they can do it.
-
----
-
-## The Market Is Moving Faster Than the Security Architecture
-
-This is also a market problem, which means it will not self-correct quickly.
-
-OpenAI launched Codex in May 2025 as a cloud-based software engineering agent, growing it to over two million weekly active users by early 2026 before extending the platform into application security with Codex Security. Anthropic's Claude Code was already embedded in developer workflows at scale. Cursor, Manus, and GitHub Copilot were competing for the same territory. The race to capture developer mindshare is producing tools that ship before their threat model is fully understood — confirmation gates get deprioritized because they create friction, permission scoping gets loosened because it limits capability, and security review cycles compress because the market window is narrow.
-
-The supply chain dimension compounds this. AI is now embedded in how code gets written, reviewed, and deployed across the industry — not just inside firms that have consciously adopted it. A firm that has not deployed an AI agent internally may still be exposed through vendors, developers, or outsourced workflows that have. The AI layer has entered the software development lifecycle. The security controls governing that lifecycle have not kept pace.
-
----
-
-## What Firms Must Do
-
-The response to this environment is not to avoid AI. It is to govern it with the same rigor applied to any other high-capability, high-access system.
-
-**Immediately**
-
-- Patch CVE-2026-31431 (Copy Fail). It affects every major Linux distribution built since 2017, allows reliable root escalation via a publicly available exploit, and is actively being exploited. Prioritize Kubernetes nodes and CI/CD runners. Where immediate patching is not possible, disabling the algif_aead kernel module is an effective interim mitigation that does not affect encryption, SSH, or VPN services.
-- Inventory every AI tool deployed across development, operations, and business workflows. Map what credentials, tokens, and API access each one holds. Revoke anything beyond minimum-necessary permissions.
-- Enforce confirmation gates on destructive or irreversible actions. No AI agent should be able to execute deletions, bulk writes, or high-blast-radius API operations without explicit human approval.
-
-**Near Term**
-
-- Benchmark your actual patch cycle against the current exploit window. The 44-day industry average is the relevant standard, not your internal SLA. Build escalation triggers for critical findings where your remediation timeline exceeds that threshold.
-- Updating QC lifecycles for AI content. Ensure AI-generated work product — whether code, analysis, or documentation — is subject to the same review standards as any other high-risk input.
-- Add AI-specific scenarios to incident response exercises. Tabletop simulations should include autonomous destructive action and agent hijacking chains. The forensic profile and containment steps for these incidents differ from conventional malware scenarios.
-
-**Strategically**
-
-- Assign a team to evaluate Project Glasswing's findings report when published. Anthropic has committed to releasing findings within 90 days of the April announcement. That report will document patched vulnerabilities in foundational software across the technology stack — evaluate it against your environment as soon as it is available.
-- Invest in AI-assisted defensive capabilities, but only with proper controls. The discovery speed that makes Mythos alarming also makes AI-assisted vulnerability scanning genuinely useful for defenders. The prerequisite is that the AI doing the scanning operates under the same permission discipline described above.
-- Define clear governance policies for AI use, access, and accountability across the organization. Treat this as an operational resilience issue, not a compliance checkbox.
-
----
-
-## The Honest Case for Optimism
-
-It would be easy to read this paper and conclude that AI is net-negative for cybersecurity. That conclusion is wrong, and acting on it would cause firms to miss the more important strategic reality.
-
-Copy Fail was found by AI and disclosed responsibly. The kernel patch was available within a week of notification. Project Glasswing is a real initiative deploying real capability against real infrastructure in the interest of defense. The same tools that compress the exploit window also compress the discovery window for defenders who know how to use them.
-
-The firms that will fare best in this environment are not those that adopt AI first, and not those that avoid it out of caution. They are the ones that govern it — with clear permission boundaries, human oversight on consequential actions, and institutional response mechanisms built for machine speed rather than manual process.
-
-Mythos is the signal. The speed gap is the risk. Governance is the answer.
+»	Assess whether any business services meet the threshold of criticality, as this determination defines the scope of the firm's obligations under the framework.
+»	For services identified as critical, define impact tolerances covering:
+o	Maximum acceptable duration of disruption
+o	Acceptable levels of data loss
+o	Acceptable client and market impact
+»	Map the people, processes, systems, and third-party dependencies underlying each critical business service, paying particular attention to shared resources and concentration risks.
+»	Conduct scenario testing across severe but plausible disruption scenarios, including simultaneous failures arising from shared dependencies, and document all outcomes for regulatory inspection.
+»	Notify the DFSA as soon as practicable where a disruption has breached or come close to breaching a pre-defined impact tolerance.
+»	Begin gap analysis and governance planning now, given the significant documentation and operational work involved before the 24-month transition period ends.
 
 ---
 
-*ACA Aponix advises financial services firms on cybersecurity governance, penetration testing, and enterprise risk management. For guidance on applying this framework to your organization's environment, contact your ACA relationship manager or visit aponix.com.*
+**FSRA Cyber Risk Management: What to Know**
+
+The Financial Services Regulatory Authority (FSRA) of the Abu Dhabi Global Market (ADGM) announced the implementation of a new Cyber Risk Management Framework on 29 July 2025, applying to all authorised persons and recognised bodies under its supervision. Compliance is required from 31 January 2026, following extensive industry engagement on Consultation Paper No. 3 of 2025. The central purpose is to enhance overall cyber resilience across the ADGM financial services sector by establishing consistent standards, and to align with the UAE government's broader efforts to combat cyber threats and financial crime. Outsourcing does not reduce responsibility; even where technology, cloud services, or cybersecurity functions are fully outsourced, the regulated entity remains accountable to the FSRA.
+
+To ensure your firm is ready to comply with the FSRA's cyber risk requirements, please consider the following:
+
+**Establish a Written Cyber Risk Management Framework**
+
+»	Establish and maintain a written cyber risk management framework to identify, assess, and manage cyber risks effectively, covering both the probability and impact of cyber incidents.
+»	Ensure the framework is documented, approved by the governing body, and reflects systems and controls appropriate to the institution's size and complexity.
+»	Integrate cyber risk management into the firm's existing risk frameworks rather than treating it as a standalone programme.
+»	Review the framework at least annually, taking account of regulations and guidance published by UAE federal authorities and recognised international standards.
+
+**Embed Governance and Board-Level Accountability**
+
+»	Assign ultimate responsibility for implementing the cyber risk management framework to the governing body and senior management.
+»	Ensure the board and senior management receive regular updates on global cyber threats and participate in cybersecurity training.
+»	Define clear roles and responsibilities for cybersecurity oversight with documented accountability at board and executive levels.
+»	Embed cyber risk into the firm's risk appetite statements and internal control frameworks.
+
+**Implement Technical Controls and Cyber Hygiene**
+
+»	Mandate technical safeguards across all key control areas, including:
+o	Malware defence and anti-virus controls
+o	Encryption for data in transit and at rest
+o	User access and privileged access management
+o	Change control processes
+»	Implement a change management process that assesses cyber risks before, during, and after IT system or network changes, with all changes subject to testing and approval.
+»	Apply software update management processes that classify updates by criticality and prioritise the timely application of critical patches.
+»	Maintain separate environments for development, testing, and production where feasible; where not feasible, implement task segregation controls.
+
+**Conduct Regular Testing and Monitoring**
+
+»	Conduct regular testing of systems and controls, including:
+o	Vulnerability assessments
+o	Penetration testing (minimum annually for internet-facing systems)
+o	Red team exercises
+»	Implement continuous monitoring processes to detect cyber incidents and evaluate the effectiveness of controls on an ongoing basis.
+»	Document all testing outcomes and ensure findings are tracked, prioritised, and remediated in a timely manner.
+»	Share testing results with senior management and relevant oversight functions.
+
+**Manage Third-Party Cyber Risk**
+
+»	Conduct risk-based due diligence on third-party ICT service providers before onboarding and throughout the vendor lifecycle.
+»	Ensure ICT service contracts include minimum provisions covering:
+o	Security obligations and standards
+o	Review and audit rights
+o	Incident notification requirements
+o	Sub-outsourcing controls and visibility
+o	Data return and destruction arrangements
+»	Require third-party ICT service providers to notify the firm about all cyber incidents that have or are likely to have a material impact on the firm.
+»	Apply adequate controls on sub-contractors used by ICT service providers, ensuring visibility into the scope of sub-contracted services and the risk mitigation measures in place.
+
+**Establish Incident Response and Recovery Capabilities**
+
+»	Establish, maintain, and regularly test a robust cyber incident response plan to ensure timely recovery from incidents and mitigation of consequences.
+»	Integrate the incident response plan with the firm's overall crisis management and disaster recovery plans.
+»	Define materiality criteria for cyber incidents, taking into account:
+o	Operational, financial, and reputational impact
+o	Whether the incident requires notification to other regulators
+»	Conduct post-incident reviews to identify root causes and implement controls to prevent recurrence.
+
+**Report Material Cyber Incidents to the FSRA**
+
+»	Notify the FSRA immediately, and no later than 24 hours after becoming aware that a material cyber incident has occurred, regardless of weekends or public holidays.
+»	Treat failure to report within the required timeframe as a potential regulatory breach in its own right.
+»	Use the FSRA's updated cyber incident notification template to structure initial reports, noting that preliminary data is acceptable to facilitate swift regulatory coordination.
+»	Maintain a central incident log and ensure all post-incident documentation is audit-ready.
+
+---
+
+Let me know if you want anything adjusted.
