@@ -1,117 +1,20 @@
-The EU AI Act: What to Know
+Dear [Client Name],
 
-The EU AI Act is the world’s first comprehensive AI regulation, ensuring AI systems deployed in the EU are safe, transparent, and respect fundamental rights. Adopted in 2024, the Act introduces a risk-based framework with phased implementation:
+Risks are changing faster than ever, and firms in financial services have fewer opportunities to get ahead of them than they might expect. Attackers are now using AI to automate reconnaissance, generate targeted phishing, and identify exploitable gaps at a speed that most conventional defenses were not built to match.
 
-»	Mid-2025: Banned AI systems (e.g., social scoring, manipulative AI) must be removed; transparency obligations for limited-risk AI (e.g., deepfakes, chatbots) take effect.
-»	August 2026: High-risk AI providers must implement risk management, oversight, and data governance; critical AI must be registered in the EU database.
-»	August 2027: Full enforcement begins, including audits and penalties.
+Penetration testing is one of the few genuinely proactive tools available to a CCO or CISO. Rather than waiting for an incident to surface where your defenses fall short, a structured test gives your leadership team documented, evidence-based confirmation of where you stand, and a clear basis for remediation priorities.
 
-To ensure your firm is ready to comply with the EU AI Act, please consider the following:
+ACA Aponix conducts penetration testing scoped specifically for [firm type], with findings mapped to your compliance obligations. If you would like to discuss what an engagement could look like, we would welcome the conversation.
 
-Classify AI Systems Based on EU Risk Categories
-
-»	Start by identifying and documenting your firm’s AI systems to build an internal AI inventory to track use cases and classify risk accurately
-»	Identify if your AI use case falls under Unacceptable Risk (banned), High Risk (strict controls), Limited Risk (transparency required), or Minimal Risk (few obligations).
-»	For Unacceptable Risk AI, ensure immediate removal by mid-2025 (e.g., social scoring systems, manipulative AI, real-time biometric surveillance — except in narrow law enforcement cases).
-»	For High-Risk AI (used in healthcare, finance, law enforcement, employment), prepare for compliance with risk assessments, human oversight, and transparency rules by August 2026.
-»	For Limited Risk AI (chatbots, deepfakes), implement clear user disclosure mechanisms.
-»	For Minimal Risk AI (spam filters, video game AI), monitor for future regulatory changes but no immediate action is required.
-
-Implement Risk Management & Governance Frameworks (High-Risk AI)
-
-»	Establish an AI risk management policy to address bias, discrimination, and cybersecurity risks.
-»	Conduct and document risk assessments before AI deployment and regularly after.
-»	Ensure systems are designed with safety, fundamental rights, and ethical considerations in mind.
-»	Ensure third-party AI vendors comply with AI Act requirements, including data security and governance.
+Best regards,
 
 
+Dear [Client Name],
 
-Strengthen Data Governance & Security Controls
+Cybersecurity is a top priority for firms like yours, and while no program can stop every attack, the best firms are doing what they can to stay ahead. Based on our previous discussions around evaluating your compliance program, I know continuous improvement is something you are focused on.
 
-»	Train AI models only on high-quality, representative, and non-biased datasets.
-»	Document AI model training sources, methodologies, and data lineage for auditability.
-»	Implement cybersecurity protections against data poisoning, adversarial attacks, and model manipulation.
-»	Integrate AI data governance with existing GDPR, DORA, and sectoral data policies.
+I wanted to reach out to see if you would like to learn more about how we help firms like yours pressure test their cyber defenses through a penetration test. It is one of the most direct ways to validate that your program is keeping pace with today's threat environment, and to give leadership a clear picture of where to focus next.
 
-Establish Human Oversight & Accountability Mechanisms
+Happy to set up a call whenever works for you.
 
-»	Design AI systems so that humans remain “in the loop” for sensitive decisions (e.g., hiring, lending, law enforcement).
-»	Define roles and responsibilities for AI system supervision and intervention.
-»	Train staff on AI oversight responsibilities and ethical use.
-
-Conduct Robust Testing, Validation & Monitoring
-
-»	Perform pre-deployment testing and validation to ensure safety, accuracy, and reliability.
-»	Implement continuous monitoring processes to detect AI drift, bias, or performance issues post-deployment.
-»	Retrain models periodically to maintain compliance and reliability.
-
-Prepare for Incident Reporting & Compliance Audits
-
-»	Set up mechanisms to report serious AI-related incidents and malfunctions to EU regulators.
-»	Maintain detailed documentation and technical files for each high-risk AI system.
-»	Be prepared for periodic audits, compliance checks, and corrective action requests by national regulators or the European AI Office.
-
-Address Foundation Models & General Purpose AI (GPAI)
-
-»	If providing or using large-scale general-purpose AI models (e.g., GPT, Gemini), comply with transparency, cybersecurity, and energy efficiency reporting requirements.
-»	For high-impact GPAI models (posing systemic risk), prepare for additional compliance measures, including stricter testing, documentation, and EU registration obligations.
-
-
--------------x---------------
-
-EU’s Digital Operational Resiliency Act: What to Know
-The Digital Operational Resilience Act (DORA), effective January 17, 2025, introduces broad new requirements for financial entities operating in the EU to strengthen their ability to prevent, withstand, and recover from ICT-related disruptions. Covered firms must implement a robust ICT risk management framework, report significant incidents within strict timelines, conduct regular resilience testing, and manage risks from third-party technology providers. DORA creates a unified standard for digital operational resilience across the financial sector, applying to banks, investment firms, insurers, and critical service providers.
-
-To ensure your firm is ready to comply with DORA, please consider the following:
-
-Implement an ICT Risk Management Framework
-»	Implement a documented ICT risk management framework tailored to your organization's size, services, and risk profile.
-»	Clearly define roles and responsibilities for ICT risk within the governance structure (including board and senior management oversight).
-»	Identify, assess, and continuously monitor ICT risks, including emerging threats and vulnerabilities.
-»	Maintain an updated inventory of ICT assets and classify them by criticality.
-»	Ensure appropriate security controls (e.g., access controls, encryption, backup and recovery) are in place.
-»	Ensure business continuity and disaster recovery plans include ICT-specific scenarios and are tested regularly.
-
-Establish ICT-Related Incident Reporting Procedures
-»	Establish internal procedures to detect, classify, and escalate ICT-related incidents promptly.
-»	Use DORA’s incident classification criteria (e.g., number of clients affected, duration, data loss) to determine if an incident qualifies as major.
-»	Notify competent authorities of a major ICT-related incident as follows:
-o	Initial notification within 4 hours of classification as a major incident and not later than 24 hours.
-o	Intermediate report within 72 hours after the initial notification.
-o	Final report within 1-month, detailing root cause, impact, and remediation.
-»	Maintain a central incident log and post-incident analysis process to identify root causes and prevent recurrence.
-»	Review and update incident handling procedures at least annually.
-Build a Structured Digital Operational Resilience Testing Program
-»	Design a multi-layered testing program including vulnerability scanning, network security assessments, and scenario-based simulations.
-»	Include advanced Threat-Led Penetration Testing (TLPT) every 3 years for entities designated as critical.
-»	Ensure testing covers systems, applications, and third-party services that support critical or important functions.
-»	Track and remediate any vulnerabilities or weaknesses discovered through testing.
-»	Document testing results and share findings with senior management and internal audit functions.
-
-Strengthen Oversight of Third-Party ICT Services Providers
-»	Maintain a current register of all ICT third-party service providers, especially those supporting critical or important functions.
-»	Conduct risk-based due diligence before engaging a new ICT third party.
-»	Ensure contracts include clear provisions for:
-o	Data protection and security controls
-o	Sub-outsourcing conditions
-o	Audit rights and access to information
-o	Termination and exit support provisions
-»	Continuously monitor service performance and risk exposure throughout the vendor lifecycle.
-»	Develop and test exit and continuity strategies for critical third-party services.
-
-Actively Participate and Utilize Cyber Threat Information Sharing
-»	Evaluate participation in information-sharing initiatives that support collective cyber threat intelligence.
-»	Ensure all shared information complies with confidentiality requirements, data protection laws, and competition rules.
-»	Define and document internal procedures for receiving, analyzing, and acting on shared cyber threat and vulnerability information.
-
-Ensure Governance and Oversight 
-»	Assign ultimate responsibility for ICT risk management and digital resilience to the management body.
-»	Ensure the risk management strategy explicitly addresses ICT and cyber risks.
-»	Provide ongoing training to board members and staff on DORA obligations and digital risk awareness.
-»	Embed ICT resilience into internal control frameworks and risk appetite statements.
-»	Regularly audit DORA compliance and report findings to the board or senior management.
-
-
-
-
-
+Regards,
