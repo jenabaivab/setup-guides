@@ -1,109 +1,73 @@
-Charles Schwab Compliance Review – 2026 Regulation S-P Whitepaper 
+Draft below. I fixed a few things from the outline that were out of date or inaccurate; they're listed after the draft.
 
-Introduction  
+---
 
-The Amendments to Reg S-P Are in Force - Both compliance deadlines have now passed [either one year ago or six months ago at time of planned publication] shifting the focus away from preparing to meet the amendment’s requirements to assessing firm progress and preparing for SEC examinations. 
+**Reg S-P Is in Force. Now Comes the Exam.**
 
-[Potential call out box idea: We have recent survey data that points to Reg S-P being one of the highest priority topics for compliance leaders, behind only AI and cybersecurity. We also have data that points to a significant number of firms increasing compliance testing around Reg S-P. Either or both could make a good call out to emphasize the importance of the topic for the industry.] 
+The amendments to Regulation S-P are no longer something firms are preparing for. The larger-entity compliance date passed on December 3, 2025, and the smaller-entity date followed on June 3, 2026. With both deadlines behind us, the question has shifted from "are we ready?" to "can we show the SEC it works?"
 
-Reg S-P Is an SEC Focus Area - The SEC included Reg S-P in its exam priorities, conducted several outreach events, and firms are seeing questions about the regulation in exams. [Note: We will likely need to update once the 2027 SEC Exam Priorities are released.]  
+> **Why it matters now:** Recent ACA survey data places Reg S-P among the top priorities for compliance leaders, behind only AI and cybersecurity. A significant share of firms also report increasing compliance testing around the rule. [Insert figures]
 
-Background and Key Elements of Reg S-P – Core requirements of the amendments include:  
+**Reg S-P is an SEC focus area**
 
-Written incident response program reasonably designed to detect, respond to, and recover from unauthorized access to customer information. 
+The SEC named the amended rule in its fiscal year 2026 exam priorities, released in November 2025. The Division of Examinations has also held outreach sessions, including a January 2026 webinar for smaller firms that walked through a mock examination and the initial document request list. Firms are now reporting Reg S-P questions in their exams.
 
-Customer notification obligation — generally within 30 days of determining unauthorized access/use has occurred. 
+**What the amendments require**
 
-Expanded service provider oversight requirements around the safeguarding and disposal of customer data. 
+> **A quick refresher**
+> - **Incident response program:** a written program reasonably designed to detect, respond to, and recover from unauthorized access to or use of customer information.
+> - **Customer notification:** affected individuals must be notified as soon as practicable, and no later than 30 days after the firm becomes aware that sensitive customer information was, or is reasonably likely to have been, accessed or used without authorization.
+> - **Service provider oversight:** expanded oversight of providers' safeguarding and disposal of customer data.
+> - **72-hour provider notice:** providers must notify the firm within 72 hours of becoming aware of a breach affecting a customer information system they maintain.
+> - **Recordkeeping:** documentation of compliance, with retention periods that vary by institution type.
+> - **Broader scope:** "customer information" now includes information a firm receives about customers of other financial institutions, not just its own.
 
-72-hour incident notification requirements for service provider incidents. 
+**What the SEC is looking for**
 
-Recordkeeping requirements (retention periods vary by institution type) 
+Exams are increasingly built around Reg S-P. Since the smaller-entity deadline, industry publications have reported document request letters that appear to be part of a sweep of registered investment advisers. The SEC has not published the letter, but based on those reports, SEC outreach, and our client work, firms should be ready to produce:
 
-Expanded scope of “customer information” which now covers information a firm receives about customers of other financial institutions, not just its own. 
+- Governance and risk management materials: org charts, cybersecurity reporting lines, committee structures, IT governance, and risk assessments
+- Compliance program materials: testing records, automated oversight tools, and records of prior non-compliance or internal investigations
+- A data inventory showing sound data governance, such as assigned data owners, sensitivity or risk classifications, and access information
+- Privacy and information security documents: privacy notices with proof of delivery, safeguards documentation, complaints, and incident response materials
+- Cybersecurity incidents during the review period, including any client harm and remediation steps
+- Vendor management records: policies, risk assessments, agreements, monitoring records, and a complete vendor list
+- Details on any unauthorized access to or use of customer information, including incidents involving service providers, the notifications sent, and severity assessments
 
-[Note: These bullets feel like they would be a good callout box. I would assume most firms are well aware of the key requirements, so a callout box could provide a good reminder/level set for readers, without taking away from the broader narrative.]  
+These requests also overlap with other priorities. Cybersecurity, AI, and rules like Regulation S-ID all feed into practical Reg S-P compliance, and meeting the rule takes coordination across cyber, IT, privacy, legal, and the business. That cross-functional dependency is part of why the rule carries real risk.
 
- 
+**Where firms are struggling**
 
-What the SEC is Looking For  
+*Third-party oversight.* ACA data shows the most common challenges are getting service providers to commit to 72-hour incident notification and negotiating data safeguarding terms with vendors. Both sit squarely within SEC exam focus. The definition of "service provider" is also broader than many firms assumed. It reaches CRM platforms, portfolio management software, custodians, outside counsel, and managed IT and security vendors. And fewer than 30% of firms ask about a vendor's incident response capabilities during due diligence, a gap examiners are likely to notice.
 
-Exams Increasingly Involve Reg S-P – The SEC has escalated compliance with the amendments to Reg S-P from a priority to a practical focus area of exams. There have been reports of sweep-style document request letters to registered investment advisers (e.g., activity out of the SEC’s Boston office). 
+*Mapping the firm's data.* Only about a third of firms have completed a data mapping exercise. The rule does not use the words "data map," but the SEC's outreach previewed requests for data inventory documentation, and it is hard to run an incident response program without knowing what data you hold and where it goes. The work gets harder once data flows to service providers and their own subcontractors, and harder again because the data firms collect, and the risk it carries, keeps changing.
 
-What We’ve Learned From Exams – Based on document request letters, SEC outreach, and client interactions, firms should be prepared to provide the SEC with:  
+*Detecting incidents.* The amended rule requires a program that can detect unauthorized access or use of customer information. Yet only 13% of firms have adopted enhanced data security monitoring tools, and just under a third receive alerts of unauthorized access or use of customer data. Because the 30-day notification clock starts when a firm becomes aware of an incident, detection speed matters. Many firms outsource monitoring to an IT or cyber provider, so that relationship needs to be strong enough to surface incidents, assess severity, and support notification on time. Internal mistakes also count as unauthorized access or use, and they are often harder to spot than external attacks.
 
-Governance and risk management (org charts, cybersecurity reporting lines, committee structures, IT governance, risk assessments) 
+**What firms should do now**
 
-Compliance program materials (compliance testing/automated oversight tools, records of prior non-compliance or internal investigations) 
+- Audit whether written policies match actual practice. The classic SEC advice applies: do what you say and say what you do.
+- Inventory every service provider with access to customer information, and confirm that due diligence, monitoring, and agreements address safeguarding, disposal, and incident response.
+- Build and maintain an inventory of customer information that notes the potential harm if the data is involved in an incident, including whether it meets the definition of "sensitive customer information."
+- Document an incident response process that quickly determines whether the data involved is sensitive.
+- Test incident response plans, including scenarios that involve third parties.
+- Confirm recordkeeping meets retention requirements and that records can be produced on short notice.
+- Consider a mock exam and tabletop exercise, modeled on the SEC's own outreach sessions for smaller firms.
+- Assign clear ownership across compliance, privacy, legal, and cybersecurity so that no part of the rule falls between functions.
 
-A data inventory that demonstrates good data governance, like assigned data owners, sensitivity or risk classifications, data access, etc.  
+**Conclusion**
 
-Privacy and information security (privacy notices and proof of delivery, safeguards documentation, complaints, incident-response materials) 
+Reg S-P is now a test of operational maturity, not a one-time compliance project. Firms that treat vendor oversight and incident response as living programs rather than static policies will be best placed for the next round of exams. Watch for any risk alert or enforcement activity that follows the 2026 sweep, since it will be an early signal of where the SEC's expectations are heading.
 
-Cybersecurity incidents during the review period, including client harm and remediation steps 
+---
 
-Service providers and vendor management (policies, risk assessments, agreements, monitoring records, complete vendor lists) 
+**What I changed or couldn't verify**
 
-Information on incidents of unauthorized access/use of customer information, including information on incidents involving service providers, notifications provided, severity assessments, etc.  
+- **Deadlines:** The outline's "one year ago or six months ago" is off. The larger-entity deadline was December 3, 2025, and the smaller-entity deadline is June 3, 2026, so roughly ten and four months ago today. I used the exact dates so the post doesn't age. [sidley](https://datamatters.sidley.com/?p=8937)
+- **30-day trigger:** The outline says "determining." The rule runs from becoming aware that sensitive customer information was, or is reasonably likely to have been, accessed or used without authorization. That is an earlier trigger, so I corrected it. [stblaw](https://www.stblaw.com/about-us/publications/view/2024/05/22/sec-adopts-significant-amendments-to-regulation-s-p-requiring-notification-of-sensitive-customer-information-breaches-service-provider-oversight)
+- **Boston office:** I couldn't confirm this attribution, so I removed it. Coverage of the sweep is based on industry reports of a document request letter that the SEC has not publicly released. Restore it only if your manager has a source. [foleyhoag](https://foleyhoag.com/news-and-insights/publications/alerts-and-updates/2026/august/sec-reg-s-p-sweep-exams-what-investment-advisers-should-be-ready-to-produce-now/)
+- **Exam priorities:** The FY2026 priorities were released November 17, 2025. I found no FY2027 release yet, so recheck before publishing. [sec](https://www.sec.gov/newsroom/press-releases/2025-132-sec-division-examinations-announces-2026-priorities)
+- **Statistics:** The 13%, under 30%, and one-third figures come only from the outline. I couldn't verify them, so confirm the source and survey date. The first callout also needs actual numbers.
+- **One addition:** The SEC's September 14, 2026 risk alert on annual compliance reviews supports the "do what you say" theme. I didn't include it in the draft, but it could go in the first takeaway if your manager wants it. [freewritings](https://www.freewritings.law/2026/09/sec-exam-staff-issues-risk-alert-on-investment-adviser-annual-compliance-reviews/)
 
-Overlapping Expectations – While all of the above items are directly related to Reg S-P, it is important for compliance leaders to recognize the intersection of cybersecurity, AI, and other rules like Regulation S-ID with practical Reg S-P compliance. Meeting the expectations of Reg S-P will require coordination across cyber, IT, privacy, legal, and other business functions, which elevates the importance and risks associated with the regulation.  
-
- 
-
-Where Firms Are Struggling 
-
-Third-Party Oversight and Risk Management – According to ACA data, the most commonly cited challenges firms are facing involve ensuring that service providers will notify them of incidents within 72 hours and negotiating data safeguarding arrangements with vendors.  
-
-These challenges align with areas of SEC exam focus, so getting this right is especially important for firms. 
-
-Additionally, firms can struggle with the "service provider" definition, as it is broader than many firms initially assumed, including CRM platforms, portfolio management software, custodians, outside counsel, managed IT/security vendors, etc. This can create challenges firms that may not have been aware of the scope of the regulation’s expectations. 
-
-And, less than 30% of firms include questions about the vendor’s incident response capabilities in their due diligence - another potential gap from what the SEC may expect or ask about during an exam.  
-
-[Potential call out box: We could include data points calling out the above challenges as the most common challenges.] 
-
-Mapping the Firm’s Data – Only about a third of firms have completed a data mapping exercise to understand the scope of the customer data that they hold.  
-
-The SEC has stated that it expects to see a data map in their Reg S-P outreach, so this presents a potential gap for firms. 
-
-Data mapping exercises also become more complicated when the firm needs to understand how data flows to service providers, and their 4th parties.  
-
-The data mapping exercise also becomes more difficult because the data firms are gathering on customers can change quickly, both in terms of the type of data that the firm collects as well as the potential risk or impact of the data.  
-
-[Potential call out box: We could include data points around this lack of data mapping.] 
-
-Detecting Incidents – The scope of the amended Reg S-P requires firms to have an incident response program that can detect incidents of unauthorized access or use of customer information. However, only 13% of firms have adopted enhanced data security monitoring tools, and just under 1/3 receive alerts of unauthorized access or use of customer data.  
-
-Often these activities are outsourced to an IT/cyber provider, so firms need to make sure that they have a strong relationship with these providers to make sure that they can quickly detect incidents, assess their severity, and meet the 30-day notification requirements.  
-
-Additionally, detecting incidents can be more difficult because Reg S-P notification requirements require incident notification for external attacks as well as internal mistakes, the latter can be much more difficult to detect. 
-
- 
-
-Practical Takeaways / What Firms Should Do Now 
-
-Audit whether written policies match actual operating practice — the classic SEC advice of “do what you say and say what you do” applies here 
-
-Inventory all service providers with access to customer information and confirm the firm’s vendor due diligence, monitoring, and agreements (when possible) address the safeguarding, disposal, and incident response requirements of the amended Reg S-P 
-
-Create and maintain an inventory of customer information which includes information on the potential risk or harms that may result from the data being involved in an incident (i.e., does the data meet Reg S-P’s definition of “sensitive customer information”) 
-
-Establish a documented incident response process that includes a process to quickly determine if data involved in the incident would be classified as “sensitive”  
-
-Test the firm’s incident response plans, including for incidents that involve third parties 
-
-Ensure recordkeeping practices meet retention requirements and can be produced on short notice 
-
-Consider a mock exam and tabletop exercise, following the model of the SEC's own outreach sessions for smaller firms 
-
-Assign clear ownership across compliance, privacy, legal, and cybersecurity functions, to limit the chances that portions of the regulation aren’t missed 
-
- 
-
-Conclusion 
-
-Reframe: Reg S-P is now a test of operational maturity, not a one-time compliance project 
-
-Firms that treat vendor oversight and incident response as living programs — not static policies — will be best positioned for the next wave of exams 
-
-Optional forward-look: watch for enforcement actions stemming from the 2026 sweep exams as an early signal of SEC priorities 
+Want this as a Word doc?
